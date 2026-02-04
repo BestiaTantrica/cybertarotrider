@@ -1,0 +1,98 @@
+
+# Flujo de Interacción para la IA de AstroTarot
+
+### **Objetivo**
+Diseñar un flujo de interacción claro y adaptativo para que la IA de AstroTarot actúe como oráculo, guía personalizada y administrador de NFTs, integrando las disciplinas del tarot, la astrología y la psicología analítica.
+
+---
+
+### **1. Inicio de la Interacción**
+
+#### **1.1. Saludo Inicial**
+- **Descripción:**
+  La IA saluda al usuario y ofrece opciones basadas en su perfil o el contexto astrológico actual.
+- **Ejemplo de Diálogo:**
+  - "Bienvenido/a, [Nombre del Usuario]. Hoy, con el Sol en conjunción con Júpiter, es un día ideal para explorar tu potencial creativo. ¿Te gustaría realizar una tirada o consultar sobre tu carta natal?"
+
+#### **1.2. Opciones de Inicio**
+1. Realizar una tirada.
+2. Consultar la carta del día.
+3. Explorar la biblioteca esotérica.
+4. Revisar el historial de tiradas y logros.
+
+---
+
+### **2. Flujo de Tiradas Interactivas**
+
+#### **2.1. Selección de la Tirada**
+- La IA presenta opciones de tiradas basadas en el perfil del usuario y eventos astrológicos:
+  - "Cruz de Clo" para reflexiones profundas.
+  - "Tirada del Viaje del Héroe" para explorar el autodescubrimiento.
+  - "Carta diaria" para insights inmediatos.
+
+#### **2.2. Interacción durante la Tirada**
+- La IA explica cada paso de la tirada:
+  - "Coloca tu primera carta en el centro del paño. Esto representará tu situación actual."
+  - "Esta carta, [El Sol], indica energías de vitalidad y optimismo. Con la Luna en Aries, podrías sentir impulsos emocionales fuertes."
+
+#### **2.3. Interpretaciones Personalizadas**
+- Basadas en las cartas seleccionadas, los aspectos astrológicos y patrones arquetípicos.
+  - "Tu tirada sugiere un fuerte impulso de transformación (representado por La Muerte y Plutón retrógrado). Esto podría ser un buen momento para dejar atrás viejos hábitos."
+
+---
+
+### **3. Flujo de la Carta del Día**
+
+#### **3.1. Extracción Automática**
+- La IA selecciona una carta según el contexto astrológico y el historial del usuario.
+  - "Hoy te acompaña El Ermitaño. Con Mercurio en retrógrado, es un día para reflexionar y reorganizar tus pensamientos."
+
+#### **3.2. Sugerencias de Acción**
+- La IA ofrece consejos prácticos basados en la carta:
+  - "Considera dedicar tiempo a la introspección. Tal vez escribir un diario podría ayudarte a clarificar tus metas."
+
+---
+
+### **4. Flujo de la Biblioteca Esotérica**
+
+#### **4.1. Navegación Guiada**
+- La IA sugiere tópicos relevantes según las interacciones previas del usuario:
+  - "¿Te gustaría aprender más sobre los arquetipos relacionados con La Sacerdotisa o explorar el simbolismo astrológico de Saturno?"
+
+#### **4.2. Respuestas Personalizadas**
+- La IA responde preguntas abiertas:
+  - Usuario: "¿Qué significa el As de Copas?"
+  - IA: "El As de Copas representa nuevas emociones y conexiones. En astrología, se relaciona con el elemento agua y planetas como Venus."
+
+---
+
+### **5. Flujo del Historial y NFTs**
+
+#### **5.1. Visualización del Historial**
+- La IA muestra tiradas anteriores y progresos:
+  - "En tus últimas tiradas, las cartas de transformación como La Torre han aparecido frecuentemente. Esto sugiere un periodo de cambios profundos."
+
+#### **5.2. Asignación de NFTs**
+- La IA otorga NFTs basados en logros:
+  - "Has completado 10 tiradas consecutivas. Como recompensa, has desbloqueado el NFT exclusivo de La Estrella."
+
+---
+
+### **6. Flujo de Interacción Natural**
+
+#### **6.1. Preguntas Abiertas**
+- La IA responde consultas generales:
+  - Usuario: "¿Qué me depara este día?"
+  - IA: "Con Marte en cuadratura con tu Sol natal, podrías enfrentar desafíos relacionados con tu energía personal."
+
+#### **6.2. Personalización Reactiva**
+- La IA adapta sus respuestas a patrones de uso:
+  - "Noté que consultas frecuentemente sobre relaciones. Podrías explorar la tirada de Los Enamorados para obtener más claridad."
+
+---
+
+### **7. Próximos Pasos**
+
+1. Validar este flujo para asegurarnos de que refleja la experiencia deseada.
+2. Diseñar prototipos visuales que representen cada paso del flujo.
+3. Implementar modelos de IA iniciales para pruebas con preguntas y respuestas específicas.

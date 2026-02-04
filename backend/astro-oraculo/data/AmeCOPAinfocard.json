@@ -1,0 +1,256 @@
+{
+    "cartas": {
+        "As_de_Copas": {
+            "numero": 1,
+            "nombre": "As de Copas",
+            "personalidad": "Apertura emocional, amor incondicional, inicio sentimental.",
+            "positivo": "Nuevos sentimientos, inspiración, amor profundo.",
+            "negativo": "Bloqueo emocional, miedo a la vulnerabilidad.",
+            "elemento": "Agua",
+            "efecto": "Otorga +1 punto de estabilidad a una carta aliada en juego.",
+            "multiplicador": "X1.5 si se juega con otra carta de Agua.",
+            "puntos": 1,
+            "armonico": [1, 5],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Optimización de jugadas con enfoque en armonización emocional."
+            }
+        },
+        "Dos_de_Copas": {
+            "numero": 2,
+            "nombre": "Dos de Copas",
+            "personalidad": "Unión, conexión, relaciones en armonía.",
+            "positivo": "Amistad, amor mutuo, colaboración.",
+            "negativo": "Dependencia emocional, falta de equilibrio en relaciones.",
+            "elemento": "Agua",
+            "efecto": "Permite duplicar el efecto de una carta aliada en juego.",
+            "multiplicador": "X1.5 si hay otra carta de Agua en la casa.",
+            "puntos": 2,
+            "armonico": [2, 6],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Sugerencias estratégicas para potenciar relaciones en juego."
+            }
+        },
+        "Tres_de_Copas": {
+            "numero": 3,
+            "nombre": "Tres de Copas",
+            "personalidad": "Celebración, alegría compartida, apoyo mutuo.",
+            "positivo": "Reuniones, éxitos compartidos, felicidad grupal.",
+            "negativo": "Excesos, superficialidad en relaciones.",
+            "elemento": "Agua",
+            "efecto": "Aumenta en +2 los puntos de todas las cartas aliadas.",
+            "multiplicador": "X1.5 si hay al menos dos cartas de Agua en la casa.",
+            "puntos": 3,
+            "armonico": [3, 9],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Recomendaciones de sinergias grupales para optimizar jugadas."
+            }
+        },
+        "Cuatro_de_Copas": {
+            "numero": 4,
+            "nombre": "Cuatro de Copas",
+            "personalidad": "Reflexión emocional, oportunidad ignorada, apatía.",
+            "positivo": "Meditación, descanso necesario, revisión de sentimientos.",
+            "negativo": "Descontento, rechazo de oportunidades.",
+            "elemento": "Agua",
+            "efecto": "Anula el efecto de una carta en juego por un turno.",
+            "multiplicador": "X1.3 si se juega con otra carta de Agua.",
+            "puntos": 4,
+            "armonico": [4, 8],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Estrategias de pausa y análisis para mejorar la jugada."
+            }
+        },
+        "Cinco_de_Copas": {
+            "numero": 5,
+            "nombre": "Cinco de Copas",
+            "personalidad": "Pérdida, nostalgia, dificultad para seguir adelante.",
+            "positivo": "Aprendizaje emocional, superación.",
+            "negativo": "Enfocarse solo en lo negativo, renuencia al cambio.",
+            "elemento": "Agua",
+            "efecto": "Reduce en -2 la estabilidad de una carta oponente.",
+            "multiplicador": "X1.2 si hay más cartas de Agua en la casa.",
+            "puntos": 5,
+            "armonico": [5, 10],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Estrategias de resiliencia y recuperación en el tablero."
+            }
+        },
+        "Seis_de_Copas": {
+            "numero": 6,
+            "nombre": "Seis de Copas",
+            "personalidad": "Recuerdos, nostalgia, reencuentros del pasado.",
+            "positivo": "Felicidad pasada, armonía, conexión con la infancia.",
+            "negativo": "Apego al pasado, resistencia a cambios.",
+            "elemento": "Agua",
+            "efecto": "Permite jugar una carta adicional en este turno.",
+            "multiplicador": "X1.5 si hay otra carta de Agua en juego.",
+            "puntos": 6,
+            "armonico": [6, 12],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Sugerencias estratégicas basadas en reencuentros y sinergias pasadas."
+            }       
+        },
+        "Siete_de_Copas": {
+            "numero": 7,
+            "nombre": "Siete de Copas",
+            "personalidad": "Sueños, ilusiones, múltiples opciones.",
+            "positivo": "Creatividad, visión, imaginación sin límites.",
+            "negativo": "Falta de enfoque, confusión, falsas expectativas.",
+            "elemento": "Agua",
+            "efecto": "Permite robar una carta extra y decidir cuál jugar.",
+            "multiplicador": "X1.3 si hay al menos dos cartas de Agua en la casa.",
+            "puntos": 7,
+            "armonico": [7, 14],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Optimización de estrategias basadas en múltiples posibilidades."
+            }
+        },
+        "Ocho_de_Copas": {
+            "numero": 8,
+            "nombre": "Ocho de Copas",
+            "personalidad": "Cambio, búsqueda de significado, dejar atrás lo que no funciona.",
+            "positivo": "Superación, evolución emocional, nuevo camino.",
+            "negativo": "Escapismo, abandono, rechazo de oportunidades.",
+            "elemento": "Agua",
+            "efecto": "Permite mover una carta propia a otra casa.",
+            "multiplicador": "X1.3 si la carta movida es de Agua.",
+            "puntos": 8,
+            "armonico": [8, 16],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Análisis de cambios estratégicos en el tablero."
+            }
+        },
+        "Nueve_de_Copas": {
+            "numero": 9,
+            "nombre": "Nueve de Copas",
+            "personalidad": "Satisfacción, realización personal, felicidad interior.",
+            "positivo": "Éxito, logros cumplidos, armonía emocional.",
+            "negativo": "Exceso de confianza, complacencia.",
+            "elemento": "Agua",
+            "efecto": "Otorga inmunidad a todas las cartas aliadas en la casa durante un turno.",
+            "multiplicador": "X1.5 si se juega con otra carta de Agua.",
+            "puntos": 9,
+            "armonico": [9, 18],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Sugerencias de optimización de jugadas basadas en máxima protección."
+            }
+        },
+        "Diez_de_Copas": {
+            "numero": 10,
+            "nombre": "Diez de Copas",
+            "personalidad": "Felicidad plena, armonía familiar, bienestar duradero.",
+            "positivo": "Éxito a largo plazo, relaciones sanas, felicidad.",
+            "negativo": "Excesiva dependencia en la estabilidad externa.",
+            "elemento": "Agua",
+            "efecto": "Aumenta en +3 los puntos de todas las cartas aliadas.",
+            "multiplicador": "X1.5 si hay al menos tres cartas de Agua en la casa.",
+            "puntos": 10,
+            "armonico": [10, 20],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Estrategias de juego enfocadas en la estabilidad máxima."
+            }
+        },
+        "Sota_de_Copas": {
+            "numero": 11,
+            "nombre": "Sota de Copas",
+            "personalidad": "Explorador emocional, mensajero de sentimientos.",
+            "positivo": "Inspiración, creatividad, apertura emocional.",
+            "negativo": "Inmadurez, ilusión sin base, sensibilidad extrema.",
+            "elemento": "Agua",
+            "efecto": "Permite ver la próxima carta en la baraja antes de robar.",
+            "multiplicador": "X1.3 si se juega con una carta de Aire.",
+            "puntos": 11,
+            "armonico": [11, 22],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Optimización de jugadas mediante información anticipada."
+            }
+        },
+        "Caballo_de_Copas": {
+            "numero": 12,
+            "nombre": "Caballo de Copas",
+            "personalidad": "Romántico, soñador y en búsqueda de significado.",
+            "positivo": "Inspiración, idealismo, búsqueda espiritual.",
+            "negativo": "Exceso de ilusión, desconexión con la realidad.",
+            "elemento": "Agua",
+            "efecto": "Anula un efecto negativo de una carta en juego.",
+            "multiplicador": "X1.3 si se juega con otra carta de Agua.",
+            "puntos": 12,
+            "armonico": [12, 24],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Estrategias de juego enfocadas en control emocional."
+            }
+        },
+        "Reina_de_Copas": {
+            "numero": 13,
+            "nombre": "Reina de Copas",
+            "personalidad": "Intuitiva, compasiva, con gran profundidad emocional.",
+            "positivo": "Sabiduría emocional, empatía, comprensión.",
+            "negativo": "Excesiva sensibilidad, vulnerabilidad.",
+            "elemento": "Agua",
+            "efecto": "Otorga +2 puntos a todas las cartas aliadas.",
+            "multiplicador": "X1.5 si se juega con otra carta de Agua.",
+            "puntos": 13,
+            "armonico": [13, 26],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Sugerencias de juego enfocadas en soporte y equilibrio."
+            }
+        },
+        "Rey_de_Copas": {
+            "numero": 14,
+            "nombre": "Rey de Copas",
+            "personalidad": "Maestro emocional, líder compasivo, equilibrio.",
+            "positivo": "Control emocional, madurez, sabiduría.",
+            "negativo": "Reprimir emociones, manipulación.",
+            "elemento": "Agua",
+            "efecto": "Permite cambiar una carta aliada de casa sin penalización.",
+            "multiplicador": "X1.5 si hay al menos dos cartas de Agua en la casa.",
+            "puntos": 14,
+            "armonico": [14, 28],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Estrategias avanzadas de liderazgo y gestión emocional."
+            }
+        }
+    }
+}

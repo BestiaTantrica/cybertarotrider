@@ -1,0 +1,256 @@
+{
+    "cartas": {
+        "As_de_Bastos": {
+            "numero": 1,
+            "nombre": "As de Bastos",
+            "personalidad": "Energía pura, impulso creativo, chispa inicial.",
+            "positivo": "Iniciativa, motivación, empuje para nuevos proyectos.",
+            "negativo": "Impulsividad, falta de planificación, ansiedad.",
+            "elemento": "Fuego",
+            "efecto": "Otorga +1 punto de ataque a una carta aliada en juego.",
+            "multiplicador": "X1.5 si se juega con otra carta de Fuego.",
+            "puntos": 1,
+            "armonico": [1, 5],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Optimización de jugadas de inicio y expansión."
+            }
+        },
+        "Dos_de_Bastos": {
+            "numero": 2,
+            "nombre": "Dos de Bastos",
+            "personalidad": "Planificación estratégica, visión a futuro.",
+            "positivo": "Toma de decisiones acertada, determinación.",
+            "negativo": "Dudas, miedo al riesgo, falta de acción.",
+            "elemento": "Fuego",
+            "efecto": "Permite intercambiar la posición de dos cartas en juego.",
+            "multiplicador": "X1.5 si hay otra carta de Fuego en la casa.",
+            "puntos": 2,
+            "armonico": [2, 6],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Sugerencias de expansión y control de territorio."
+            }
+        },
+        "Tres_de_Bastos": {
+            "numero": 3,
+            "nombre": "Tres de Bastos",
+            "personalidad": "Visión de largo plazo, expectativas cumplidas.",
+            "positivo": "Progreso, avance estratégico, logros.",
+            "negativo": "Falta de acción, miedo al crecimiento.",
+            "elemento": "Fuego",
+            "efecto": "Aumenta en +2 los puntos de una carta aliada.",
+            "multiplicador": "X1.5 si hay al menos dos cartas de Fuego en la casa.",
+            "puntos": 3,
+            "armonico": [3, 9],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Estrategias de crecimiento sostenido y planificación."
+            }
+        },
+        "Cuatro_de_Bastos": {
+            "numero": 4,
+            "nombre": "Cuatro de Bastos",
+            "personalidad": "Celebración, estabilidad, éxito alcanzado.",
+            "positivo": "Armonía, felicidad, logros.",
+            "negativo": "Excesos, confianza excesiva, descanso prematuro.",
+            "elemento": "Fuego",
+            "efecto": "Protege una carta aliada de ser eliminada.",
+            "multiplicador": "X1.3 si hay al menos otra carta de Fuego.",
+            "puntos": 4,
+            "armonico": [4, 8],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Estrategias de consolidación y defensa."
+            }
+        },
+        "Cinco_de_Bastos": {
+            "numero": 5,
+            "nombre": "Cinco de Bastos",
+            "personalidad": "Competencia, enfrentamientos, lucha de poder.",
+            "positivo": "Superación de desafíos, energía competitiva.",
+            "negativo": "Conflictos sin sentido, caos, discusiones innecesarias.",
+            "elemento": "Fuego",
+            "efecto": "Reduce en -2 los puntos de una carta enemiga.",
+            "multiplicador": "X1.2 si hay más cartas de Fuego en la casa.",
+            "puntos": 5,
+            "armonico": [5, 10],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Estrategias de control de enfrentamientos."
+            }
+        },
+        "Seis_de_Bastos": {
+            "numero": 6,
+            "nombre": "Seis de Bastos",
+            "personalidad": "Reconocimiento, éxito, victoria.",
+            "positivo": "Logros importantes, avance público.",
+            "negativo": "Ego inflado, dependencia de la validación externa.",
+            "elemento": "Fuego",
+            "efecto": "Aumenta en +3 los puntos de todas las cartas aliadas.",
+            "multiplicador": "X1.5 si hay al menos dos cartas de Fuego en juego.",
+            "puntos": 6,
+            "armonico": [6, 12],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Optimización de estrategias de liderazgo."
+            }
+        },
+        "Siete_de_Bastos": {
+            "numero": 7,
+            "nombre": "Siete de Bastos",
+            "personalidad": "Defensa, resistencia, lucha persistente.",
+            "positivo": "Fuerza de voluntad, determinación, coraje.",
+            "negativo": "Agotamiento, lucha innecesaria.",
+            "elemento": "Fuego",
+            "efecto": "Anula el próximo ataque de una carta enemiga.",
+            "multiplicador": "X1.3 si hay al menos dos cartas de Fuego en la casa.",
+            "puntos": 7,
+            "armonico": [7, 14],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Estrategias defensivas y de resistencia en el tablero."
+            }
+        },
+        "Ocho_de_Bastos": {
+            "numero": 8,
+            "nombre": "Ocho de Bastos",
+            "personalidad": "Rapidez, cambios inmediatos, acción decisiva.",
+            "positivo": "Progreso acelerado, avance sin obstáculos.",
+            "negativo": "Impulsividad, precipitación.",
+            "elemento": "Fuego",
+            "efecto": "Permite jugar una carta extra en este turno.",
+            "multiplicador": "X1.3 si se juega con otra carta de Fuego.",
+            "puntos": 8,
+            "armonico": [8, 16],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Estrategias de velocidad y expansión táctica."
+            }
+        },
+        "Nueve_de_Bastos": {
+            "numero": 9,
+            "nombre": "Nueve de Bastos",
+            "personalidad": "Resistencia, protección, última batalla.",
+            "positivo": "Perseverancia, aprendizaje de experiencias pasadas.",
+            "negativo": "Desconfianza, fatiga extrema.",
+            "elemento": "Fuego",
+            "efecto": "Otorga inmunidad a una carta aliada durante un turno.",
+            "multiplicador": "X1.5 si se juega con otra carta de Fuego.",
+            "puntos": 9,
+            "armonico": [9, 18],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Estrategias de resistencia y protección en el tablero."
+            }
+        },
+        "Diez_de_Bastos": {
+            "numero": 10,
+            "nombre": "Diez de Bastos",
+            "personalidad": "Carga, responsabilidad, agotamiento.",
+            "positivo": "Trabajo duro, determinación final.",
+            "negativo": "Sobrecarga, opresión, estrés excesivo.",
+            "elemento": "Fuego",
+            "efecto": "Reduce en -3 los puntos de una carta enemiga.",
+            "multiplicador": "X1.5 si hay al menos tres cartas de Fuego en la casa.",
+            "puntos": 10,
+            "armonico": [10, 20],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Análisis de estrategias de carga y resistencia máxima."
+            }
+        },
+        "Sota_de_Bastos": {
+            "numero": 11,
+            "nombre": "Sota de Bastos",
+            "personalidad": "Explorador, aventurero, portador de noticias.",
+            "positivo": "Inspiración, nuevos comienzos, curiosidad.",
+            "negativo": "Impaciencia, falta de planificación.",
+            "elemento": "Fuego",
+            "efecto": "Permite ver la próxima carta en la baraja antes de robar.",
+            "multiplicador": "X1.3 si se juega con una carta de Aire.",
+            "puntos": 11,
+            "armonico": [11, 22],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Estrategias de exploración y planificación anticipada."
+            }
+        },
+        "Caballo_de_Bastos": {
+            "numero": 12,
+            "nombre": "Caballo de Bastos",
+            "personalidad": "Veloz, impetuoso, lleno de energía ardiente.",
+            "positivo": "Movimiento rápido, iniciativa poderosa.",
+            "negativo": "Impulsividad, falta de paciencia.",
+            "elemento": "Fuego",
+            "efecto": "Anula un efecto negativo de una carta en juego.",
+            "multiplicador": "X1.3 si se juega con otra carta de Fuego.",
+            "puntos": 12,
+            "armonico": [12, 24],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Estrategias de juego basadas en velocidad y ataque sorpresa."
+            }
+        },
+        "Reina_de_Bastos": {
+            "numero": 13,
+            "nombre": "Reina de Bastos",
+            "personalidad": "Carismática, creativa, líder natural.",
+            "positivo": "Confianza, pasión, determinación.",
+            "negativo": "Exceso de ego, autoritarismo.",
+            "elemento": "Fuego",
+            "efecto": "Otorga +2 puntos a todas las cartas aliadas.",
+            "multiplicador": "X1.5 si se juega con otra carta de Fuego.",
+            "puntos": 13,
+            "armonico": [13, 26],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Estrategias de liderazgo y motivación en el tablero."
+            }
+        },
+        "Rey_de_Bastos": {
+            "numero": 14,
+            "nombre": "Rey de Bastos",
+            "personalidad": "Líder nato, visionario, fuerte estratega.",
+            "positivo": "Autoridad, carisma, control del poder.",
+            "negativo": "Despotismo, exceso de ambición.",
+            "elemento": "Fuego",
+            "efecto": "Permite cambiar una carta aliada de casa sin penalización.",
+            "multiplicador": "X1.5 si hay al menos dos cartas de Fuego en la casa.",
+            "puntos": 14,
+            "armonico": [14, 28],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Estrategias avanzadas de liderazgo y control del juego."
+            }
+        }
+    }
+}

@@ -1,0 +1,57 @@
+{
+  "juego": "AstroTarot",
+  "descripcion": "Juego estratégico basado en elementos astrológicos, numerología y tránsitos planetarios.",
+  "elementos": {
+    "Fuego": "Impulso, acción y pasión",
+    "Tierra": "Materialización, estabilidad y protección",
+    "Aire": "Estrategia, movimiento e intelecto",
+    "Agua": "Emoción, intuición y fluidez"
+  },
+  "casas_astrologicas": {
+    "activacion": "Se activan según el mes en curso",
+    "modificacion": "Los tránsitos planetarios pueden alterar los efectos"
+  },
+  "cartas": {
+    "numerologia": "Cada carta tiene un número que define su valor base en puntos",
+    "armonicos": "Cada carta tiene un armónico que potencia o modifica su efecto",
+    "efecto_especial": "Algunas cartas tienen efectos únicos que pueden cambiar la estrategia"
+  },
+  "modos_de_juego": {
+    "Modo_Solitario": "Equilibrar las energías del paño y enfrentar desafíos astrológicos",
+    "Modo_Confrontativo": "Dos jugadores compiten por el control de las casas astrológicas",
+    "Modo_Confrontativo_Ciegas": "Se juega sin conocer las cartas del oponente"
+  },
+  "dinamica_de_juego": {
+    "turnos": "Cada turno activa casas según tránsitos planetarios, coloca cartas y calcula sinergias",
+    "victoria": {
+      "balance": "Se gana si se equilibran todas las casas activas",
+      "puntuacion": "Gana quien sume más puntos al final",
+      "arcanos_mayores": "Algunos efectos pueden definir la victoria"
+    }
+  },
+  "puntuacion_y_armonicos": {
+    "calculo_puntos": "Los valores de las cartas en una misma casa se suman",
+    "multiplicadores": {
+      "armonicos_coincidentes": "+2 puntos",
+      "tres_o_mas_cartas": "Multiplicador x1.2",
+      "transito_planetario": "+3 puntos",
+      "bonificacion_maxima_transito": "+6 puntos",
+      "penalizacion_opuestos": "-20% de la puntuacion",
+      "penalizacion_reversion": "-10% por carta afectada"
+    }
+  },
+  "nfts_dinamicos": {
+    "integracion_blockchain": "Cada carta es un NFT con historial y evolución en la blockchain",
+    "mejora_evolucion": {
+      "sinergias_exitosas": "+1 punto base por cada 10 sinergias",
+      "perdidas_en_casas_opuestas": "Desbloqueo de habilidades defensivas",
+      "adaptabilidad": "Las cartas se ajustan según el historial de juego"
+    }
+  },
+  "ajustes_balance": {
+    "multiplicador_armonicos": "Reducción en casas con 3+ cartas",
+    "limite_bonificacion_transito": "Máximo +6 puntos por casa",
+    "penalizacion_reversion": "Ahora es progresiva",
+    "mecanica_nft": "Optimización para reflejar evolución en la blockchain"
+  }
+}

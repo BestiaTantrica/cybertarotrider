@@ -1,0 +1,58 @@
+{
+    "juego": "cyberTarot",
+    "descripcion": "Juego estratégico basado en elementos astrológicos, numerología y tránsitos planetarios.",
+    "elementos": {
+        "Fuego": "Impulso, acción y pasión",
+        "Tierra": "Materialización, estabilidad y protección",
+        "Aire": "Estrategia, movimiento e intelecto",
+        "Agua": "Emoción, intuición y fluidez"
+    },
+    "casas_astrologicas": {
+        "activacion": "Se activan según el mes en curso la anterio y posterior",
+        "modificacion": "Los tránsitos planetarios pueden influir en todos las demas influencias"
+        "6 cartas por casa":"las cartas podran ocupar hasta 6 espacios en cada casa."
+    },
+    "cartas": {
+        "numerologia": "Cada carta tiene un valor base distinto de su numeracion en puntos",
+        "armonicos": "Cada carta con armónico potencia o modifica su efecto",
+        "efecto_especial": "Algunas cartas tienen efectos únicos que pueden cambiar la estrategia"
+    },
+    "modos_de_juego": {
+        "Modo_Solitario": "Equilibrar las energías del paño con las cartas y enfrentar desafíos astrológicos del transito diario o fecha en el tiempo que se imagine. sin limitaciones de turnos y con todo el mazo",
+        "Modo_Confrontativo": "Dos jugadores compiten por el control de las casas astrológicas, sumando puntos en cada casa por separado a lo largo de 7 turnos, donde en cada turno las casas iran generando nuevas y progrecivas influencias segun la astrologia. por ej: turno 1: casa anterior a casa de transito diario se activa con las influencias de la casa donde corresponda segun la fecha si fuera en marzo creo que corresponderia piscis o aries.",
+        "Modo_Confrontativo_Ciegas": "Se juega sin conocer las cartas del oponente, previamente se colocan estrategicamente todas las 18 cartas en orden que se desee, sera el orden de juego. "
+    },
+    "dinamica_de_juego": {
+        "turnos": "en modo confrontativo: Cada turno activa casas según tránsitos diario anterior y posterior, se reparten 12 cartas al azar a la mano de cada oponente, se colocan cartas en cada turno hasta tres o cuatro por efectos, por turno y calcula sinergias y suma puntos. Cada casa sumara independientemente sus puntajes y al ganador de 2 de 3 casas se lleva la victoria.",
+        "victoria": {
+            "balance": "Se gana si se gana todas las casas o 2 de 3 casas, si hay desempate carta al azar",
+            "puntuacion": "Gana quien sume más puntos al final",
+            "arcanos_mayores": "Algunos efectos pueden definir la victoria"
+        }
+    },
+    "puntuacion_y_armonicos": {
+        "calculo_puntos": "Los valores de las cartas en una misma casa se suman",
+        "multiplicadores": {
+            "armonicos_coincidentes": 2,
+            "tres_o_mas_cartas": 1.2,
+            "transito_planetario": 3,
+            "bonificacion_maxima_transito": 6,
+            "penalizacion_opuestos": 0.2,
+            "penalizacion_reversion": 0.1
+        }
+    },
+    "nfts_dinamicos": {
+        "integracion_blockchain": "Cada carta es un NFT con historial y evolución en la blockchain",
+        "mejora_evolucion": {
+            "sinergias_exitosas": "+1 punto base por cada 10 sinergias",
+            "perdidas_en_casas_opuestas": "Desbloqueo de habilidades defensivas",
+            "adaptabilidad": "Las cartas se ajustan según el historial de juego"
+        }
+    },
+    "ajustes_balance": {
+        "multiplicador_armonicos": "Reducción en casas con 3+ cartas",
+        "limite_bonificacion_transito": "Máximo +6 puntos por casa",
+        "penalizacion_reversion": "Ahora es progresiva",
+        "mecanica_nft": "Optimización para reflejar evolución en la blockchain"
+    }
+}

@@ -1,0 +1,103 @@
+﻿Entidad,Tipo,Arcano,Color,NotaMusical,Chakra,NivelFrecuencia
+Sol,Planeta,El Sol,Dorado/Amarillo,Do#,Manipura (3° plexo),Alta
+Luna,Planeta,La Sacerdotisa,Plateado/Blanco,Fa,Svadisthana (2° sacro),Media
+Mercurio,Planeta,El Mago,Amarillo/Verde,Mi,Vishuddha (5° garganta),Alta
+Venus,Planeta,La Emperatriz,Rosa/Verde,Fa#,Anahata (4° corazón),Alta
+Marte,Planeta,El Emperador,Rojo,Do,Muladhara (1° raíz),Baja–Alta
+Júpiter,Planeta,La Rueda de la Fortuna,Azul,Pa,Ajna (6° tercer ojo),Alta
+Saturno,Planeta,El Mundo,Índigo/Negro,Re,Sahasrara (7° corona),Media–Baja
+Urano,Planeta,El Loco,Turquesa/Eléctrico,Sol,Ajna (6° tercer ojo),Alta disruptiva
+Neptuno,Planeta,El Colgado,Turquesa/Violeta,La,Sahasrara (7° corona),Media–Alta
+Plutón,Planeta,La Muerte,Negro/Rojo oscuro,Do#,Muladhara (1° raíz),Baja–Alta transformadora
+Aries,Signo,El Emperador,Rojo,Do,Muladhara (1° raíz),Baja–Alta
+Tauro,Signo,El Hierofante,Verde,Re,Anahata (4° corazón),Media
+Géminis,Signo,Los Enamorados,Amarillo,Mi,Vishuddha (5° garganta),Alta
+Cáncer,Signo,La Luna,Plateado,Fa,Svadisthana (2° sacro),Media
+Leo,Signo,La Fuerza,Dorado/Naranja,Sol,Manipura (3° plexo),Alta
+Virgo,Signo,El Ermitaño,Verde Oliva,La,Vishuddha (5° garganta),Media
+Libra,Signo,La Justicia,Rosa/Azul claro,Si,Anahata (4° corazón),Alta
+Escorpio,Signo,La Muerte,Negro/Rojo oscuro,Do#,Svadisthana (2° sacro),Baja–Alta
+Sagitario,Signo,La Templanza,Violeta,Re#,Ajna (6° tercer ojo),Alta
+Capricornio,Signo,El Diablo,Negro/Gris,Mi,Muladhara (1° raíz),Baja
+Acuario,Signo,La Estrella,Azul Eléctrico,Fa#,Ajna (6° tercer ojo),Alta
+Piscis,Signo,El Colgado,Turquesa/Violeta,Sol,Sahasrara (7° corona),Media–Alta
+0 El Loco,Arcano Mayor,El Loco,Turquesa/Eléctrico,Sol,Ajna (6° tercer ojo),Alta disruptiva
+I El Mago,Arcano Mayor,El Mago,Amarillo/Verde,Mi,Vishuddha (5° garganta),Alta
+II La Sacerdotisa,Arcano Mayor,La Sacerdotisa,Plateado/Blanco,Fa,Svadisthana (2° sacro),Media
+III La Emperatriz,Arcano Mayor,La Emperatriz,Rosa/Verde,Fa#,Anahata (4° corazón),Alta
+IV El Emperador,Arcano Mayor,El Emperador,Rojo,Do,Muladhara (1° raíz),Baja–Alta
+V El Hierofante,Arcano Mayor,El Hierofante,Verde,Re,Anahata (4° corazón),Media
+VI Los Enamorados,Arcano Mayor,Los Enamorados,Amarillo,Mi,Vishuddha (5° garganta),Alta
+VII El Carro,Arcano Mayor,El Carro,Azul/Gris,Re#,Manipura (3° plexo),Alta dinámica
+VIII La Justicia,Arcano Mayor,La Justicia,Rosa/Azul claro,Si,Anahata (4° corazón),Alta
+IX El Ermitaño,Arcano Mayor,El Ermitaño,Verde Oliva,La,Vishuddha (5° garganta),Media
+X La Rueda de la Fortuna,Arcano Mayor,La Rueda de la Fortuna,Azul,Pa,Ajna (6° tercer ojo),Alta
+XI La Fuerza,Arcano Mayor,La Fuerza,Dorado/Naranja,Sol,Manipura (3° plexo),Alta
+XII El Colgado,Arcano Mayor,El Colgado,Turquesa/Violeta,La,Sahasrara (7° corona),Media–Alta
+XIII La Muerte,Arcano Mayor,La Muerte,Negro/Rojo oscuro,Do#,Muladhara (1° raíz),Baja–Alta
+XIV La Templanza,Arcano Mayor,La Templanza,Violeta,Re#,Ajna (6° tercer ojo),Alta
+XV El Diablo,Arcano Mayor,El Diablo,Negro/Gris,Mi,Muladhara (1° raíz),Baja
+XVI La Torre,Arcano Mayor,La Torre,Escarlata/Naranja,Fa#,Manipura (3° plexo),Baja–Alta (crisis)
+XVII La Estrella,Arcano Mayor,La Estrella,Azul Eléctrico,Fa#,Ajna (6° tercer ojo),Alta
+XVIII La Luna,Arcano Mayor,La Luna,Plateado,Fa,Svadisthana (2° sacro),Media
+XIX El Sol,Arcano Mayor,El Sol,Dorado/Amarillo,Do#,Manipura (3° plexo),Alta
+XX El Juicio,Arcano Mayor,El Juicio,Blanco/Dorado,La,Sahasrara (7° corona),Alta
+XXI El Mundo,Arcano Mayor,El Mundo,Índigo/Negro,Re,Sahasrara (7° corona),Media–Alta
+As de Bastos,Arcano Menor,As de Bastos,Rojo/Naranja,Do,Muladhara (1° raíz),Variable
+2 de Bastos,Arcano Menor,2 de Bastos,Rojo/Naranja,Do,Muladhara (1° raíz),Variable
+3 de Bastos,Arcano Menor,3 de Bastos,Rojo/Naranja,Do,Muladhara (1° raíz),Variable
+4 de Bastos,Arcano Menor,4 de Bastos,Rojo/Naranja,Do,Muladhara (1° raíz),Variable
+5 de Bastos,Arcano Menor,5 de Bastos,Rojo/Naranja,Do,Muladhara (1° raíz),Variable
+6 de Bastos,Arcano Menor,6 de Bastos,Rojo/Naranja,Do,Muladhara (1° raíz),Variable
+7 de Bastos,Arcano Menor,7 de Bastos,Rojo/Naranja,Do,Muladhara (1° raíz),Variable
+8 de Bastos,Arcano Menor,8 de Bastos,Rojo/Naranja,Do,Muladhara (1° raíz),Variable
+9 de Bastos,Arcano Menor,9 de Bastos,Rojo/Naranja,Do,Muladhara (1° raíz),Variable
+10 de Bastos,Arcano Menor,10 de Bastos,Rojo/Naranja,Do,Muladhara (1° raíz),Variable
+Paje de Bastos,Arcano Menor,Paje de Bastos,Rojo/Naranja,Do,Muladhara (1° raíz),Variable
+Caballero de Bastos,Arcano Menor,Caballero de Bastos,Rojo/Naranja,Do,Muladhara (1° raíz),Variable
+Reina de Bastos,Arcano Menor,Reina de Bastos,Rojo/Naranja,Do,Muladhara (1° raíz),Variable
+Rey de Bastos,Arcano Menor,Rey de Bastos,Rojo/Naranja,Do,Muladhara (1° raíz),Variable
+As de Copas,Arcano Menor,As de Copas,Azul/Plateado,Fa,Svadisthana (2° sacro),Variable
+2 de Copas,Arcano Menor,2 de Copas,Azul/Plateado,Fa,Svadisthana (2° sacro),Variable
+3 de Copas,Arcano Menor,3 de Copas,Azul/Plateado,Fa,Svadisthana (2° sacro),Variable
+4 de Copas,Arcano Menor,4 de Copas,Azul/Plateado,Fa,Svadisthana (2° sacro),Variable
+5 de Copas,Arcano Menor,5 de Copas,Azul/Plateado,Fa,Svadisthana (2° sacro),Variable
+6 de Copas,Arcano Menor,6 de Copas,Azul/Plateado,Fa,Svadisthana (2° sacro),Variable
+7 de Copas,Arcano Menor,7 de Copas,Azul/Plateado,Fa,Svadisthana (2° sacro),Variable
+8 de Copas,Arcano Menor,8 de Copas,Azul/Plateado,Fa,Svadisthana (2° sacro),Variable
+9 de Copas,Arcano Menor,9 de Copas,Azul/Plateado,Fa,Svadisthana (2° sacro),Variable
+10 de Copas,Arcano Menor,10 de Copas,Azul/Plateado,Fa,Svadisthana (2° sacro),Variable
+Paje de Copas,Arcano Menor,Paje de Copas,Azul/Plateado,Fa,Svadisthana (2° sacro),Variable
+Caballero de Copas,Arcano Menor,Caballero de Copas,Azul/Plateado,Fa,Svadisthana (2° sacro),Variable
+Reina de Copas,Arcano Menor,Reina de Copas,Azul/Plateado,Fa,Svadisthana (2° sacro),Variable
+Rey de Copas,Arcano Menor,Rey de Copas,Azul/Plateado,Fa,Svadisthana (2° sacro),Variable
+As de Espadas,Arcano Menor,As de Espadas,Gris/Azul,Mi,Vishuddha (5° garganta),Variable
+2 de Espadas,Arcano Menor,2 de Espadas,Gris/Azul,Mi,Vishuddha (5° garganta),Variable
+3 de Espadas,Arcano Menor,3 de Espadas,Gris/Azul,Mi,Vishuddha (5° garganta),Variable
+4 de Espadas,Arcano Menor,4 de Espadas,Gris/Azul,Mi,Vishuddha (5° garganta),Variable
+5 de Espadas,Arcano Menor,5 de Espadas,Gris/Azul,Mi,Vishuddha (5° garganta),Variable
+6 de Espadas,Arcano Menor,6 de Espadas,Gris/Azul,Mi,Vishuddha (5° garganta),Variable
+7 de Espadas,Arcano Menor,7 de Espadas,Gris/Azul,Mi,Vishuddha (5° garganta),Variable
+8 de Espadas,Arcano Menor,8 de Espadas,Gris/Azul,Mi,Vishuddha (5° garganta),Variable
+9 de Espadas,Arcano Menor,9 de Espadas,Gris/Azul,Mi,Vishuddha (5° garganta),Variable
+10 de Espadas,Arcano Menor,10 de Espadas,Gris/Azul,Mi,Vishuddha (5° garganta),Variable
+Paje de Espadas,Arcano Menor,Paje de Espadas,Gris/Azul,Mi,Vishuddha (5° garganta),Variable
+Caballero de Espadas,Arcano Menor,Caballero de Espadas,Gris/Azul,Mi,Vishuddha (5° garganta),Variable
+Reina de Espadas,Arcano Menor,Reina de Espadas,Gris/Azul,Mi,Vishuddha (5° garganta),Variable
+Rey de Espadas,Arcano Menor,Rey de Espadas,Gris/Azul,Mi,Vishuddha (5° garganta),Variable
+As de Oros,Arcano Menor,As de Oros,Verde/Dorado,Re,Anahata (4° corazón),Variable
+2 de Oros,Arcano Menor,2 de Oros,Verde/Dorado,Re,Anahata (4° corazón),Variable
+3 de Oros,Arcano Menor,3 de Oros,Verde/Dorado,Re,Anahata (4° corazón),Variable
+4 de Oros,Arcano Menor,4 de Oros,Verde/Dorado,Re,Anahata (4° corazón),Variable
+5 de Oros,Arcano Menor,5 de Oros,Verde/Dorado,Re,Anahata (4° corazón),Variable
+6 de Oros,Arcano Menor,6 de Oros,Verde/Dorado,Re,Anahata (4° corazón),Variable
+7 de Oros,Arcano Menor,7 de Oros,Verde/Dorado,Re,Anahata (4° corazón),Variable
+8 de Oros,Arcano Menor,8 de Oros,Verde/Dorado,Re,Anahata (4° corazón),Variable
+9 de Oros,Arcano Menor,9 de Oros,Verde/Dorado,Re,Anahata (4° corazón),Variable
+10 de Oros,Arcano Menor,10 de Oros,Verde/Dorado,Re,Anahata (4° corazón),Variable
+Paje de Oros,Arcano Menor,Paje de Oros,Verde/Dorado,Re,Anahata (4° corazón),Variable
+Caballero de Oros,Arcano Menor,Caballero de Oros,Verde/Dorado,Re,Anahata (4° corazón),Variable
+Reina de Oros,Arcano Menor,Reina de Oros,Verde/Dorado,Re,Anahata (4° corazón),Variable
+Rey de Oros,Arcano Menor,Rey de Oros,Verde/Dorado,Re,Anahata (4° corazón),Variable
+Ascendente,Punto,Ascendente,Blanco/Dorado,Do,Muladhara (1° raíz),Portal inicial
+Medio Cielo,Punto,Medio Cielo,Violeta/Dorado,La,Sahasrara (7° corona),Portal elevado

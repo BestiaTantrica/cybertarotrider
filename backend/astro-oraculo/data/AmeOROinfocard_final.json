@@ -1,0 +1,256 @@
+{
+    "cartas": {
+        "As_de_Oros": {
+            "numero": 1,
+            "nombre": "As de Oros",
+            "personalidad": "Inicio material, oportunidad tangible, potencial económico.",
+            "positivo": "Nuevas oportunidades, estabilidad, prosperidad.",
+            "negativo": "Miedo a la inversión, oportunidades perdidas.",
+            "elemento": "Tierra",
+            "efecto": "Aumenta en +1 la estabilidad de una carta aliada en juego.",
+            "multiplicador": "X1.5 si se juega con otra carta de Tierra.",
+            "puntos": 1,
+            "armonico": [1, 5],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Análisis de patrones de juego y optimización de recursos."
+            }
+        },
+        "Dos_de_Oros": {
+            "numero": 2,
+            "nombre": "Dos de Oros",
+            "personalidad": "Adaptable, dinámico y equilibrado.",
+            "positivo": "Flexibilidad, balance en lo financiero.",
+            "negativo": "Inestabilidad, indecisión material.",
+            "elemento": "Tierra",
+            "efecto": "Permite intercambiar la posición de dos cartas en juego.",
+            "multiplicador": "X1.5 si hay equilibrio entre elementos en la casa.",
+            "puntos": 2,
+            "armonico": [2, 6],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Optimización de jugadas y balance de posiciones."
+            }
+        },
+        "Tres_de_Oros": {
+            "numero": 3,
+            "nombre": "Tres de Oros",
+            "personalidad": "Colaborador, hábil y planificador.",
+            "positivo": "Trabajo en equipo, progreso, habilidad técnica.",
+            "negativo": "Dependencia de otros, falta de visión propia.",
+            "elemento": "Tierra",
+            "efecto": "Duplica el efecto positivo de otra carta de Tierra en la misma casa.",
+            "multiplicador": "X1.5 si hay al menos dos cartas de Tierra en juego.",
+            "puntos": 3,
+            "armonico": [3, 9],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Sugerencias de cooperación y estrategias de equipo."
+            }
+        },
+        "Cuatro_de_Oros": {
+            "numero": 4,
+            "nombre": "Cuatro de Oros",
+            "personalidad": "Apegado, controlador y cuidadoso.",
+            "positivo": "Seguridad financiera, control, estructura firme.",
+            "negativo": "Codicia, miedo al cambio, apego excesivo.",
+            "elemento": "Tierra",
+            "efecto": "Protege una carta aliada de ser afectada por cambios inesperados.",
+            "multiplicador": "X1.5 si se juega con otra carta de Tierra.",
+            "puntos": 4,
+            "armonico": [4, 8],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Análisis de estabilidad y control financiero."
+            }
+        },
+        "Cinco_de_Oros": {
+            "numero": 5,
+            "nombre": "Cinco de Oros",
+            "personalidad": "Desafiante, resistente, enfrentando dificultades.",
+            "positivo": "Aprendizaje en la adversidad, resiliencia.",
+            "negativo": "Pérdidas materiales, aislamiento, crisis.",
+            "elemento": "Tierra",
+            "efecto": "Reduce en -2 la estabilidad de una carta oponente.",
+            "multiplicador": "X1.2 si se juega con una carta de Agua.",
+            "puntos": 5,
+            "armonico": [5, 10],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Estrategias de recuperación en momentos de crisis."
+            }
+        },
+        "Seis_de_Oros": {
+            "numero": 6,
+            "nombre": "Seis de Oros",
+            "personalidad": "Generoso, justo y equilibrado en recursos.",
+            "positivo": "Reciprocidad, compartir riqueza, justicia económica.",
+            "negativo": "Desequilibrio en la ayuda, dependencia de otros.",
+            "elemento": "Tierra",
+            "efecto": "Permite transferir puntos de una carta aliada a otra en juego.",
+            "multiplicador": "X1.5 si hay equilibrio entre cartas de Tierra y Agua.",
+            "puntos": 6,
+            "armonico": [6, 12],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Optimización de distribución de recursos en el tablero."
+            }
+        },
+        "Siete_de_Oros": {
+            "numero": 7,
+            "nombre": "Siete de Oros",
+            "personalidad": "Paciente, observador y en espera de frutos.",
+            "positivo": "Esfuerzo a largo plazo, paciencia, inversión inteligente.",
+            "negativo": "Frustración, impaciencia, dudas sobre el camino.",
+            "elemento": "Tierra",
+            "efecto": "Aumenta en +1 los puntos de una carta en el próximo turno.",
+            "multiplicador": "X1.3 si se combina con otra carta de Tierra.",
+            "puntos": 7,
+            "armonico": [7, 14],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Sugerencias estratégicas basadas en acumulación y desarrollo."
+            }
+        },
+        "Ocho_de_Oros": {
+            "numero": 8,
+            "nombre": "Ocho de Oros",
+            "personalidad": "Dedicado, disciplinado y en proceso de maestría.",
+            "positivo": "Trabajo constante, aprendizaje, perfección.",
+            "negativo": "Obsesión por los detalles, falta de flexibilidad.",
+            "elemento": "Tierra",
+            "efecto": "Permite mejorar el efecto de una carta aliada en juego.",
+            "multiplicador": "X1.3 si la carta mejorada es de Tierra.",
+            "puntos": 8,
+            "armonico": [8, 16],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Optimización de jugadas centradas en desarrollo progresivo."
+            }
+        },
+        "Nueve_de_Oros": {
+            "numero": 9,
+            "nombre": "Nueve de Oros",
+            "personalidad": "Independiente, autosuficiente y en equilibrio.",
+            "positivo": "Éxito material, gozo, seguridad.",
+            "negativo": "Exceso de confort, aislamiento, materialismo extremo.",
+            "elemento": "Tierra",
+            "efecto": "Otorga inmunidad a una carta aliada durante un turno.",
+            "multiplicador": "X1.5 si se juega con otra carta de Tierra.",
+            "puntos": 9,
+            "armonico": [9, 18],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Estrategias avanzadas de protección y estabilidad."
+            }
+        },
+        "Diez_de_Oros": {
+            "numero": 10,
+            "nombre": "Diez de Oros",
+            "personalidad": "Herencia, legado y seguridad duradera.",
+            "positivo": "Riqueza estable, familia, abundancia.",
+            "negativo": "Rigidez, miedo al cambio, apego al pasado.",
+            "elemento": "Tierra",
+            "efecto": "Aumenta en +2 la estabilidad de todas las cartas aliadas.",
+            "multiplicador": "X1.5 si hay al menos tres cartas de Tierra en la casa.",
+            "puntos": 10,
+            "armonico": [10, 20],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Análisis de legado y estrategias de largo plazo."
+            }
+        },
+        "Sota_de_Oros": {
+            "numero": 11,
+            "nombre": "Sota de Oros",
+            "personalidad": "Curiosa, meticulosa y aprendiz constante.",
+            "positivo": "Exploración, crecimiento, nuevas oportunidades.",
+            "negativo": "Falta de experiencia, indecisión.",
+            "elemento": "Tierra",
+            "efecto": "Permite ver la próxima carta del oponente.",
+            "multiplicador": "X1.3 si se juega con una carta de Aire.",
+            "puntos": 11,
+            "armonico": [11, 22],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Optimización de jugadas con información anticipada."
+            }
+        },
+        "Caballo_de_Oros": {
+            "numero": 12,
+            "nombre": "Caballo de Oros",
+            "personalidad": "Persistente, trabajador y disciplinado.",
+            "positivo": "Resistencia, determinación, progreso seguro.",
+            "negativo": "Rigidez, lentitud, terquedad.",
+            "elemento": "Tierra",
+            "efecto": "Anula efectos negativos de cartas opuestas.",
+            "multiplicador": "X1.3 si se juega con otra carta de Tierra.",
+            "puntos": 12,
+            "armonico": [12, 24],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Análisis de estrategias defensivas en el juego."
+            }
+        },
+        "Reina_de_Oros": {
+            "numero": 13,
+            "nombre": "Reina de Oros",
+            "personalidad": "Protectora, práctica y abundante.",
+            "positivo": "Cuidado, prosperidad, sabiduría.",
+            "negativo": "Exceso de confort, sobreprotección.",
+            "elemento": "Tierra",
+            "efecto": "Aumenta en +1 los puntos de todas las cartas aliadas.",
+            "multiplicador": "X1.5 si se juega con otra carta de Tierra.",
+            "puntos": 13,
+            "armonico": [13, 26],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Estrategias avanzadas de soporte y crecimiento."
+            }
+        },
+        "Rey_de_Oros": {
+            "numero": 14,
+            "nombre": "Rey de Oros",
+            "personalidad": "Líder, estable y próspero.",
+            "positivo": "Dominio financiero, éxito, legado.",
+            "negativo": "Autoritarismo, rigidez.",
+            "elemento": "Tierra",
+            "efecto": "Otorga +2 puntos a cualquier carta en juego.",
+            "multiplicador": "X1.5 si hay al menos dos cartas de Tierra.",
+            "puntos": 14,
+            "armonico": [14, 28],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Estrategias de liderazgo y control del tablero."
+            }
+        }
+    }
+}

@@ -1,0 +1,254 @@
+{
+    "AstroTarot": {
+        "descripcion": "Integración completa de tarot, astrología y cromoterapia en un entorno interactivo de NFTs dinámicos.",
+        "diseño": {
+            "cosmic_tunnel": {
+                "descripcion": "Un túnel cósmico de alta velocidad representando la carta natal y los tránsitos en movimiento.",
+                "colores": [
+                    "rojo-anaranjado intenso",
+                    "azul eléctrico",
+                    "dorado radiante"
+                ],
+                "texturas": [
+                    "flujos dinámicos de energía",
+                    "auroras espaciales",
+                    "niebla cósmica en expansión"
+                ]
+            },
+            "transit_overlay": {
+                "descripcion": "Corrientes de energía vibrante reflejando los movimientos planetarios en tiempo real.",
+                "colores": [
+                    "destellos dorados",
+                    "ondas de luz azul",
+                    "haces de plasma interdimensional"
+                ]
+            },
+            "sincronicidad": {
+                "concepto": "Eventos acausales representados por relaciones astrológicas y tarot.",
+                "ejemplo": "Quincuncio - La Rueda de la Fortuna - Color violeta - Espirales de energía giratoria"
+            }
+        },
+        "carta_astral": {
+            "descripcion": "Representación visual y dinámica de la carta astral, adaptándose a tránsitos y sinastrías.",
+            "casas": 12,
+            "planetas": [
+                "Sol",
+                "Luna",
+                "Mercurio",
+                "Venus",
+                "Marte",
+                "Júpiter",
+                "Saturno",
+                "Urano",
+                "Neptuno",
+                "Plutón"
+            ],
+            "aspectos": {
+                "conjuncion": {
+                    "color": "naranja",
+                    "efecto": "Fusión de energías, intensidad."
+                },
+                "cuadratura": {
+                    "color": "rojo",
+                    "efecto": "Tensión, desafíos, acción."
+                },
+                "trigono": {
+                    "color": "azul",
+                    "efecto": "Armonía, fluidez, talento."
+                },
+                "oposicion": {
+                    "color": "rojo oscuro",
+                    "efecto": "Polaridad, balance, conciencia de opuestos."
+                }
+            },
+            "elementos": {
+                "fuego": "rojo-naranja",
+                "tierra": "marrón-verde",
+                "aire": "azul-cian",
+                "agua": "índigo-violeta"
+            }
+        },
+        "tarot": {
+            "arcanos_mayores": {
+                "El Loco": {
+                    "descripcion": "Inicios, aventura, potencial ilimitado, espontaneidad.",
+                    "efectos": "Corrientes erráticas de energía multicolor."
+                },
+                "El Mago": {
+                    "descripcion": "Habilidad, poder personal, manifestación, destreza.",
+                    "efectos": "Chispas de energía enfocada."
+                },
+                "La Sacerdotisa": {
+                    "descripcion": "Intuición, misterio, conocimiento oculto.",
+                    "efectos": "Ondas de energía lunar plateada."
+                },
+                "La Muerte": {
+                    "descripcion": "Transformación, finales y nuevos comienzos.",
+                    "efectos": "Neblinas negras que se disuelven en luz."
+                }
+            },
+            "arcanos_menores": {
+                "bastos": {
+                    "as": {
+                        "descripcion": "Inicio de un nuevo impulso, inspiración.",
+                        "efectos": "Llamas de energía naranja vibrante."
+                    },
+                    "2": {
+                        "descripcion": "Planificación, toma de decisiones.",
+                        "efectos": "Corrientes de fuego entrecruzadas."
+                    }
+                },
+                "copas": {
+                    "as": {
+                        "descripcion": "Nuevo amor, plenitud emocional.",
+                        "efectos": "Olas de energía rosa."
+                    },
+                    "2": {
+                        "descripcion": "Unión, conexión emocional.",
+                        "efectos": "Ondas de agua fusionándose."
+                    }
+                }
+            }
+        },
+        "cromoterapia": {
+            "colores": {
+                "rojo": "Energía, fuerza, activación.",
+                "azul": "Serenidad, comunicación, introspección.",
+                "violeta": "Espiritualidad, transformación, conexión divina."
+            }
+        }
+    },
+    "Carta_Natal_Tomy": {
+        "datos_personales": {
+            "fecha_nacimiento": "12 Abril 1982",
+            "hora_nacimiento": "02:30",
+            "lugar_nacimiento": "Almagro, Buenos Aires, Argentina",
+            "signos": {
+                "solar": "Aries",
+                "lunar": "Sagitario",
+                "ascendente": "Acuario"
+            }
+        },
+        "posiciones_planetarias": {
+            "Sol": {
+                "signo": "Aries",
+                "casa": 3,
+                "grado": "21°59'"
+            },
+            "Luna": {
+                "signo": "Sagitario",
+                "casa": 10,
+                "grado": "5°11'"
+            },
+            "Mercurio": {
+                "signo": "Aries",
+                "casa": 3,
+                "grado": "22°30'"
+            }
+        },
+        "aspectos": {
+            "conjuncion": [
+                "Sol - Mercurio"
+            ],
+            "oposicion": [
+                "Sol - Saturno",
+                "Mercurio - Plutón"
+            ],
+            "trigono": [
+                "Sol - Neptuno"
+            ],
+            "sextil": [
+                "Luna - Marte"
+            ]
+        },
+        "interpretacion": {
+            "ascendente": "Acuario - Independiente, innovador, fuerte intuición.",
+            "sol": "Aries en Casa 3 - Energía creativa, liderazgo, impulsividad.",
+            "luna": "Sagitario en Casa 10 - Optimismo, amor por viajes y filosofía."
+        }
+    },
+    "Bibliografia": {
+        "Psicologia_Filosofia": [
+            {
+                "titulo": "El Héroe de las Mil Caras",
+                "autor": "Joseph Campbell",
+                "temas": [
+                    "Monomito",
+                    "Arquetipos",
+                    "Transformación"
+                ]
+            },
+            {
+                "titulo": "Sincronicidad",
+                "autor": "Carl Jung",
+                "temas": [
+                    "Eventos acausales",
+                    "Mente y realidad"
+                ]
+            }
+        ],
+        "Astrologia": [
+            {
+                "titulo": "Manual de Interpretación de la Carta Natal",
+                "autor": "Stephen Arroyo",
+                "temas": [
+                    "Psicología astrológica",
+                    "Signos y planetas"
+                ]
+            },
+            {
+                "titulo": "Astrología de la Figura de Aspectos",
+                "autor": "Bruno y Michael Huber",
+                "temas": [
+                    "Aspectos planetarios",
+                    "Estructura de la conciencia"
+                ]
+            }
+        ],
+        "Tarot": [
+            {
+                "titulo": "Tarot, el espejo del alma",
+                "autor": "Thoth Crowley",
+                "temas": [
+                    "Autoconocimiento",
+                    "Interpretación de arcanos"
+                ]
+            },
+            {
+                "titulo": "Jung y el Tarot",
+                "autor": "Sallie Nichols",
+                "temas": [
+                    "Psicología junguiana",
+                    "Arquetipos en el tarot"
+                ]
+            }
+        ]
+    },
+    "Base_Semantica_IA": {
+        "arquetipos": {
+            "Héroe": {
+                "arcano": "El Mago",
+                "planeta": "Marte",
+                "color": "rojo",
+                "efecto_visual": "Chispas de energía enfocada."
+            },
+            "Sombra": {
+                "arcano": "La Luna",
+                "planeta": "Plutón",
+                "color": "negro",
+                "efecto_visual": "Vórtices oscuros."
+            }
+        },
+        "sincronicidad": {
+            "evento": "Eventos acausales",
+            "aspecto": "Quincuncio",
+            "arcano": "La Rueda de la Fortuna",
+            "color": "violeta",
+            "visual": "Espirales de energía giratoria."
+        },
+        "generacion_visual": {
+            "estructura": "Centro: Sol natal, Capas externas: Planetas y casas como anillos de energía.",
+            "movimiento": "Representación dinámica de tránsitos en tiempo real."
+        }
+    }
+}

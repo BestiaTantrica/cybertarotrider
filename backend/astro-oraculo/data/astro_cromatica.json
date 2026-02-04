@@ -1,0 +1,223 @@
+{
+    "planetas": {
+        "Sol": {
+            "color": "dorado",
+            "energ\u00eda": 100,
+            "efecto": "vitalidad, identidad",
+            "forma": "c\u00edrculo"
+        },
+        "Luna": {
+            "color": "plateado",
+            "energ\u00eda": 90,
+            "efecto": "emociones, intuici\u00f3n",
+            "forma": "media luna"
+        },
+        "Mercurio": {
+            "color": "amarillo",
+            "energ\u00eda": 80,
+            "efecto": "comunicaci\u00f3n, pensamiento",
+            "forma": "onda"
+        },
+        "Venus": {
+            "color": "verde",
+            "energ\u00eda": 75,
+            "efecto": "amor, armon\u00eda",
+            "forma": "c\u00edrculo con aura"
+        },
+        "Marte": {
+            "color": "rojo",
+            "energ\u00eda": 85,
+            "efecto": "acci\u00f3n, impulso",
+            "forma": "flecha"
+        },
+        "J\u00fapiter": {
+            "color": "azul",
+            "energ\u00eda": 95,
+            "efecto": "expansi\u00f3n, sabidur\u00eda",
+            "forma": "espiral"
+        },
+        "Saturno": {
+            "color": "gris",
+            "energ\u00eda": 70,
+            "efecto": "disciplina, estructura",
+            "forma": "anillo"
+        },
+        "Urano": {
+            "color": "cian",
+            "energ\u00eda": 88,
+            "efecto": "cambio, innovaci\u00f3n",
+            "forma": "rel\u00e1mpago"
+        },
+        "Neptuno": {
+            "color": "violeta",
+            "energ\u00eda": 78,
+            "efecto": "espiritualidad, sue\u00f1os",
+            "forma": "onda nebulosa"
+        },
+        "Plut\u00f3n": {
+            "color": "negro",
+            "energ\u00eda": 92,
+            "efecto": "transformaci\u00f3n, poder",
+            "forma": "torbellino"
+        }
+    },
+    "aspectos": {
+        "Conjunci\u00f3n": {
+            "color": "blanco",
+            "energ\u00eda": 100,
+            "efecto": "intensidad, fusi\u00f3n",
+            "forma": "c\u00edrculo"
+        },
+        "Oposici\u00f3n": {
+            "color": "rojo",
+            "energ\u00eda": 60,
+            "efecto": "tensi\u00f3n, desaf\u00edo",
+            "forma": "l\u00ednea recta"
+        },
+        "Cuadratura": {
+            "color": "naranja",
+            "energ\u00eda": 50,
+            "efecto": "fricci\u00f3n, cambio",
+            "forma": "cuadrado"
+        },
+        "Tr\u00edgono": {
+            "color": "azul",
+            "energ\u00eda": 80,
+            "efecto": "fluidez, facilidad",
+            "forma": "tri\u00e1ngulo"
+        },
+        "Sextil": {
+            "color": "verde",
+            "energ\u00eda": 70,
+            "efecto": "oportunidad, creatividad",
+            "forma": "hex\u00e1gono"
+        }
+    },
+    "casas": {
+        "1": {
+            "color": "rojo",
+            "intensidad": 100,
+            "zona": "cardinal",
+            "efecto": "identidad, inicio"
+        },
+        "2": {
+            "color": "naranja",
+            "intensidad": 85,
+            "zona": "fija",
+            "efecto": "recursos, valores"
+        },
+        "3": {
+            "color": "amarillo",
+            "intensidad": 90,
+            "zona": "mutable",
+            "efecto": "comunicaci\u00f3n, aprendizaje"
+        },
+        "4": {
+            "color": "verde",
+            "intensidad": 95,
+            "zona": "cardinal",
+            "efecto": "hogar, ra\u00edces"
+        },
+        "5": {
+            "color": "azul",
+            "intensidad": 88,
+            "zona": "fija",
+            "efecto": "creatividad, expresi\u00f3n"
+        },
+        "6": {
+            "color": "cian",
+            "intensidad": 80,
+            "zona": "mutable",
+            "efecto": "trabajo, salud"
+        },
+        "7": {
+            "color": "violeta",
+            "intensidad": 100,
+            "zona": "cardinal",
+            "efecto": "relaciones, pareja"
+        },
+        "8": {
+            "color": "negro",
+            "intensidad": 78,
+            "zona": "fija",
+            "efecto": "transformaci\u00f3n, poder"
+        },
+        "9": {
+            "color": "dorado",
+            "intensidad": 85,
+            "zona": "mutable",
+            "efecto": "expansi\u00f3n, filosof\u00eda"
+        },
+        "10": {
+            "color": "gris",
+            "intensidad": 98,
+            "zona": "cardinal",
+            "efecto": "carrera, estatus"
+        },
+        "11": {
+            "color": "rosa",
+            "intensidad": 82,
+            "zona": "fija",
+            "efecto": "amistades, comunidad"
+        },
+        "12": {
+            "color": "blanco",
+            "intensidad": 70,
+            "zona": "mutable",
+            "efecto": "espiritualidad, finalizaci\u00f3n"
+        }
+    },
+    "armonicos": {
+        "5": {
+            "color": "cyan",
+            "energ\u00eda": 60,
+            "efecto": "creatividad, fluidez"
+        },
+        "6": {
+            "color": "verde claro",
+            "energ\u00eda": 70,
+            "efecto": "armonizaci\u00f3n, equilibrio"
+        },
+        "7": {
+            "color": "amarillo oscuro",
+            "energ\u00eda": 75,
+            "efecto": "introspecci\u00f3n, an\u00e1lisis"
+        },
+        "8": {
+            "color": "rojo oscuro",
+            "energ\u00eda": 80,
+            "efecto": "desaf\u00edos, conflictos"
+        },
+        "9": {
+            "color": "azul oscuro",
+            "energ\u00eda": 85,
+            "efecto": "estabilidad, control emocional"
+        },
+        "10": {
+            "color": "turquesa",
+            "energ\u00eda": 90,
+            "efecto": "visi\u00f3n, percepci\u00f3n"
+        },
+        "11": {
+            "color": "morado",
+            "energ\u00eda": 95,
+            "efecto": "espiritualidad, cambio"
+        },
+        "12": {
+            "color": "verde brillante",
+            "energ\u00eda": 100,
+            "efecto": "conexi\u00f3n universal"
+        }
+    },
+    "NFT_estilo": {
+        "base": "punk",
+        "colores_saturados": true,
+        "contornos_gruesos": true,
+        "efectos_glitch": true,
+        "patrones": [
+            "ne\u00f3n",
+            "geometr\u00eda",
+            "caos arm\u00f3nico"
+        ]
+    }
+}

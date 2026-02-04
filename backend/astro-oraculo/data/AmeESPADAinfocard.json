@@ -1,0 +1,256 @@
+{
+    "cartas": {
+        "As_de_Espadas": {
+            "numero": 1,
+            "nombre": "As de Espadas",
+            "personalidad": "Claridad mental, nuevas ideas, verdad revelada.",
+            "positivo": "Intuición aguda, toma de decisiones clara.",
+            "negativo": "Corte abrupto, frialdad emocional.",
+            "elemento": "Aire",
+            "efecto": "Permite eliminar un efecto negativo en juego.",
+            "multiplicador": "X1.5 si se juega con otra carta de Aire.",
+            "puntos": 1,
+            "armonico": [1, 5],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Optimización de estrategias de claridad y toma de decisiones."
+            }
+        },
+        "Dos_de_Espadas": {
+            "numero": 2,
+            "nombre": "Dos de Espadas",
+            "personalidad": "Duda, indecisión, equilibrio mental.",
+            "positivo": "Momento de reflexión, búsqueda de equilibrio.",
+            "negativo": "Falta de acción, bloqueo emocional.",
+            "elemento": "Aire",
+            "efecto": "Anula el próximo ataque de una carta oponente.",
+            "multiplicador": "X1.3 si hay otra carta de Aire en la casa.",
+            "puntos": 2,
+            "armonico": [2, 6],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Análisis de defensa y estrategias de equilibrio."
+            }
+        },
+        "Tres_de_Espadas": {
+            "numero": 3,
+            "nombre": "Tres de Espadas",
+            "personalidad": "Dolor, separación, lección aprendida.",
+            "positivo": "Aprendizaje en la adversidad, crecimiento.",
+            "negativo": "Pérdida, tristeza profunda.",
+            "elemento": "Aire",
+            "efecto": "Reduce en -2 los puntos de una carta enemiga.",
+            "multiplicador": "X1.3 si hay al menos dos cartas de Aire en la casa.",
+            "puntos": 3,
+            "armonico": [3, 9],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Estrategias de superación y resiliencia."
+            }
+        },
+        "Cuatro_de_Espadas": {
+            "numero": 4,
+            "nombre": "Cuatro de Espadas",
+            "personalidad": "Reposo, estrategia, recuperación.",
+            "positivo": "Reflexión, pausa necesaria, claridad antes de actuar.",
+            "negativo": "Pasividad, retraso en la toma de decisiones.",
+            "elemento": "Aire",
+            "efecto": "Permite saltar un turno sin penalización.",
+            "multiplicador": "X1.3 si se juega con otra carta de Aire.",
+            "puntos": 4,
+            "armonico": [4, 8],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Análisis de pausas estratégicas en el juego."
+            }
+        },
+        "Cinco_de_Espadas": {
+            "numero": 5,
+            "nombre": "Cinco de Espadas",
+            "personalidad": "Conflicto, victoria con costos, rivalidad.",
+            "positivo": "Superación de obstáculos, triunfo estratégico.",
+            "negativo": "Traición, resentimiento, pelea innecesaria.",
+            "elemento": "Aire",
+            "efecto": "Reduce en -2 los puntos de una carta enemiga.",
+            "multiplicador": "X1.2 si hay al menos otra carta de Aire en la casa.",
+            "puntos": 5,
+            "armonico": [5, 10],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Análisis de estrategias de control y dominio."
+            }
+        },
+        "Seis_de_Espadas": {
+            "numero": 6,
+            "nombre": "Seis de Espadas",
+            "personalidad": "Transición, cambio, movimiento estratégico.",
+            "positivo": "Superación de dificultades, nuevo rumbo.",
+            "negativo": "Abandono, alejamiento, distancia emocional.",
+            "elemento": "Aire",
+            "efecto": "Permite mover una carta aliada sin penalización.",
+            "multiplicador": "X1.5 si hay al menos dos cartas de Aire en la casa.",
+            "puntos": 6,
+            "armonico": [6, 12],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Estrategias de desplazamiento y reubicación óptima."
+            }
+        },
+        "Siete_de_Espadas": {
+            "numero": 7,
+            "nombre": "Siete de Espadas",
+            "personalidad": "Estrategia, sigilo, acciones encubiertas.",
+            "positivo": "Inteligencia táctica, solución creativa.",
+            "negativo": "Engaño, traición, auto-sabotaje.",
+            "elemento": "Aire",
+            "efecto": "Oculta el efecto de una carta aliada hasta su activación.",
+            "multiplicador": "X1.3 si hay al menos dos cartas de Aire en la casa.",
+            "puntos": 7,
+            "armonico": [7, 14],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Análisis de estrategias de ocultamiento y sigilo."
+            }
+        },
+        "Ocho_de_Espadas": {
+            "numero": 8,
+            "nombre": "Ocho de Espadas",
+            "personalidad": "Restricción, bloqueo mental, limitaciones autoimpuestas.",
+            "positivo": "Reflexión interna, posibilidad de liberación.",
+            "negativo": "Miedo, sensación de encierro, falta de visión.",
+            "elemento": "Aire",
+            "efecto": "Restringe el efecto de una carta enemiga por un turno.",
+            "multiplicador": "X1.3 si hay al menos otra carta de Aire en juego.",
+            "puntos": 8,
+            "armonico": [8, 16],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Optimización de estrategias de restricción y control."
+            }
+        },
+        "Nueve_de_Espadas": {
+            "numero": 9,
+            "nombre": "Nueve de Espadas",
+            "personalidad": "Ansiedad, preocupación, pensamientos negativos.",
+            "positivo": "Reflexión profunda, superación del miedo.",
+            "negativo": "Auto-sabotaje, insomnio, dudas.",
+            "elemento": "Aire",
+            "efecto": "Anula el siguiente turno de una carta enemiga.",
+            "multiplicador": "X1.5 si hay al menos tres cartas de Aire en juego.",
+            "puntos": 9,
+            "armonico": [9, 18],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Estrategias de disuasión y manipulación del enemigo."
+            }
+        },
+        "Diez_de_Espadas": {
+            "numero": 10,
+            "nombre": "Diez de Espadas",
+            "personalidad": "Fin de un ciclo, transformación profunda.",
+            "positivo": "Liberación, renacimiento, superación de crisis.",
+            "negativo": "Derrota total, sacrificio, agotamiento.",
+            "elemento": "Aire",
+            "efecto": "Elimina una carta en juego (enemiga o aliada).",
+            "multiplicador": "X1.5 si hay al menos tres cartas de Aire en la casa.",
+            "puntos": 10,
+            "armonico": [10, 20],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Estrategias de reinicio y reconstrucción de juego."
+            }
+        },
+        "Sota_de_Espadas": {
+            "numero": 11,
+            "nombre": "Sota de Espadas",
+            "personalidad": "Observador, analítico, siempre en busca de la verdad.",
+            "positivo": "Claridad mental, curiosidad, estrategia.",
+            "negativo": "Desconfianza, espionaje, paranoia.",
+            "elemento": "Aire",
+            "efecto": "Permite ver la próxima carta del oponente antes de su jugada.",
+            "multiplicador": "X1.3 si se juega con una carta de Aire.",
+            "puntos": 11,
+            "armonico": [11, 22],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Análisis y anticipación de jugadas oponentes."
+            }
+        },
+        "Caballo_de_Espadas": {
+            "numero": 12,
+            "nombre": "Caballo de Espadas",
+            "personalidad": "Impulsivo, veloz, con gran determinación.",
+            "positivo": "Acción rápida, inteligencia estratégica, decisión.",
+            "negativo": "Impaciencia, falta de planificación, arrogancia.",
+            "elemento": "Aire",
+            "efecto": "Permite jugar una carta extra en este turno.",
+            "multiplicador": "X1.3 si se juega con otra carta de Aire.",
+            "puntos": 12,
+            "armonico": [12, 24],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Estrategias de jugadas rápidas y dominación táctica."
+            }
+        },
+        "Reina_de_Espadas": {
+            "numero": 13,
+            "nombre": "Reina de Espadas",
+            "personalidad": "Intelectual, lógica, con gran percepción.",
+            "positivo": "Claridad, inteligencia, sabiduría estratégica.",
+            "negativo": "Frialdad, dureza, distancia emocional.",
+            "elemento": "Aire",
+            "efecto": "Duplica el efecto de una carta aliada en juego.",
+            "multiplicador": "X1.5 si se juega con otra carta de Aire.",
+            "puntos": 13,
+            "armonico": [13, 26],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Optimización de estrategias de juego lógico y planificación a largo plazo."
+            }
+        },
+        "Rey_de_Espadas": {
+            "numero": 14,
+            "nombre": "Rey de Espadas",
+            "personalidad": "Líder, estratega supremo, mente dominante.",
+            "positivo": "Autoridad, justicia, toma de decisiones impecable.",
+            "negativo": "Rigidez, excesiva racionalidad, manipulación.",
+            "elemento": "Aire",
+            "efecto": "Permite controlar la próxima jugada del oponente.",
+            "multiplicador": "X1.5 si hay al menos dos cartas de Aire en la casa.",
+            "puntos": 14,
+            "armonico": [14, 28],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Estrategias avanzadas de control y manipulación del juego."
+            }
+        }
+    }
+}

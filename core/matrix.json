@@ -1,0 +1,111 @@
+{
+    "juego": "cyberTarot",
+    "descripcion": "Juego estratégico multinivel que integra astrología, numerología y blockchain",
+    "ruta_ubicacion": "C:\\Users\\Usuario\\MATRIX_TR\\cyberTarot_core.json",
+    
+    "elementos": {
+        "Fuego": {"valor": 8, "descripcion": "Impulso creativo y acción directa"},
+        "Tierra": {"valor": 6, "descripcion": "Estabilidad y recursos materiales"},
+        "Aire": {"valor": 7, "descripcion": "Estrategia y comunicación"},
+        "Agua": {"valor": 5, "descripcion": "Intuición y conexión emocional"}
+    },
+
+    "casas_astrologicas": {
+        "activacion": ["mes_actual-1", "mes_actual", "mes_actual+1"],
+        "capacidad_maxima": 6,
+        "modificadores": {
+            "transito_planetario": {"multiplicador": 3, "maximo_bono": 6},
+            "aspectos": ["conjuncion", "oposicion", "cuadratura", "trigono"]
+        }
+    },
+
+    "sistema_cartas": {
+        "arcanos": {
+            "mayores": {
+                "cantidad": 22,
+                "puntuacion_base": 15,
+                "efecto_especial": "Anula multiplicadores opuestos"
+            },
+            "menores": {
+                "cantidad": 56,
+                "puntuacion_base": 10,
+                "combinaciones": ["elementales", "numerologicas", "zodiacales"]
+            }
+        },
+        
+        "mecanicas_avanzadas": {
+            "armonicos": {
+                "H4": {"efecto": "Potencia elementos tierra", "multiplicador": 1.8},
+                "H7": {"efecto": "Activa protección acuática", "multiplicador": 2.2}
+            },
+            "nodos_karmicos": {
+                "activacion": "3 cartas mismo elemento en casa activa",
+                "efecto": "Doble puntos por 2 turnos"
+            }
+        }
+    },
+
+    "modos_juego": {
+        "solitario": {
+            "objetivo": "Alcanzar 100 puntos en 12 turnos",
+            "reglas": ["mazo_completo", "sin_limite_acciones"]
+        },
+        "confrontativo": {
+            "turnos": 7,
+            "cartas_por_turno": 3,
+            "victoria": "2/3 casas controladas"
+        },
+        "ciegas": {
+            "precolocacion": 18,
+            "reveal_fases": ["turno3", "turno5", "final"]
+        }
+    },
+
+    "nfts_dinamicos": {
+        "evolucion": {
+            "niveles": {
+                "1-5": "+1 poder base",
+                "6-10": "Desbloqueo habilidad elemental",
+                "11+": "Aura visual personalizada"
+            },
+            "degradacion": {
+                "inactividad": "-0.5 poder/mes",
+                "derrotas_consecutivas": "Reset habilidades temporales"
+            }
+        },
+        "blockchain": {
+            "contrato": "0x1a2b3c...TRv2",
+            "red": "Polygon_Mumbai",
+            "gas_optimizado": true
+        }
+    },
+
+    "balance": {
+        "multiplicadores": {
+            "transito_activo": {"valor": 3, "max_duracion": 2},
+            "armonicos_coincidentes": {"valor": 2, "stack_max": 4},
+            "penalizaciones": {
+                "elementos_opuestos": 0.3,
+                "casas_inactivas": 0.5
+            }
+        },
+        "ia_adaptativa": {
+            "umbral_dificultad": 50,
+            "ajuste_dinamico": ["multiplicadores", "frecuencia_armonicos"]
+        }
+    },
+
+    "config_pruebas": {
+        "entorno": "Alpha_v0.8.3",
+        "test_casos": [
+            "Carga_maxima_casas",
+            "Stress_transitos",
+            "NFT_longevidad"
+        ],
+        "metricas": {
+            "rendimiento": "60fps_min",
+            "memoria_max": "2GB",
+            "transacciones_sec": 15
+        }
+    }
+}

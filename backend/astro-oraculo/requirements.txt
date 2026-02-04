@@ -1,0 +1,5 @@
+fastapi
+uvicorn[standard]
+pyswisseph
+pytz
+python-multipart

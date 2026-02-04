@@ -1,0 +1,49 @@
+{
+  "carta_astral": {
+    "fecha": "1990-01-01",
+    "hora": "12:00",
+    "lugar": {
+      "ciudad": "Madrid",
+      "pais": "España",
+      "coordenadas": {
+        "latitud": "40.4168",
+        "longitud": "-3.7038"
+      }
+    },
+    "planetas": [
+      {
+        "nombre": "Sol",
+        "signo": "Capricornio",
+        "casa": 10,
+        "grados": "10°15'"
+      },
+      {
+        "nombre": "Luna",
+        "signo": "Escorpio",
+        "casa": 8,
+        "grados": "25°30'"
+      }
+    ],
+    "aspectos": [
+      {
+        "planeta1": "Sol",
+        "planeta2": "Luna",
+        "aspecto": "trígono",
+        "grados": "120°"
+      }
+    ],
+    "armonicos": [
+      {
+        "armonico": 4,
+        "descripcion": "Estructura y estabilidad"
+      }
+    ],
+    "energias": [
+      {
+        "tipo": "cardinal",
+        "elemento": "tierra",
+        "descripcion": "Iniciativa práctica"
+      }
+    ]
+  }
+}

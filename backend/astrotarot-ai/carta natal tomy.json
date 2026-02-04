@@ -1,0 +1,241 @@
+{
+  "carta_astral": {
+    "datos_personales": {
+      "fecha_nacimiento": "Lunes 12 Abril 1982",
+      "lugar_nacimiento": "Almagro - Buenos Aires, Argentina",
+      "coordenadas": {
+        "longitud": "59W06",
+        "latitud": "34S34"
+      },
+      "hora_nacimiento": "02:30",
+      "signos": {
+        "solar": "Aries",
+        "lunar": "Sagitario",
+        "ascendente": "Acuario"
+      },
+      "tiempo_universal": "05:30"
+    },
+    "posiciones_planetarias": {
+      "planetas": [
+        {
+          "simbolo": "Q",
+          "planeta": "Sol",
+          "grado": "21°59'",
+          "signo": "Aries",
+          "casa": 3
+        },
+        {
+          "simbolo": "W",
+          "planeta": "Luna",
+          "grado": "5°11'",
+          "signo": "Sagitario",
+          "casa": 10
+        },
+        {
+          "simbolo": "E",
+          "planeta": "Mercurio",
+          "grado": "22°30'",
+          "signo": "Aries",
+          "casa": 3
+        },
+        {
+          "simbolo": "R",
+          "planeta": "Venus",
+          "grado": "5°52'",
+          "signo": "Piscis",
+          "casa": 1
+        },
+        {
+          "simbolo": "T",
+          "planeta": "Marte",
+          "grado": "5°55'",
+          "signo": "Libra",
+          "casa": 8
+        },
+        {
+          "simbolo": "Y",
+          "planeta": "Júpiter",
+          "grado": "7°10'",
+          "signo": "Escorpio",
+          "casa": 9
+        },
+        {
+          "simbolo": "U",
+          "planeta": "Saturno",
+          "grado": "18°40'",
+          "signo": "Libra",
+          "casa": 9
+        },
+        {
+          "simbolo": "I",
+          "planeta": "Urano",
+          "grado": "4°0'",
+          "signo": "Sagitario",
+          "casa": 10
+        },
+        {
+          "simbolo": "O",
+          "planeta": "Neptuno",
+          "grado": "26°59'",
+          "signo": "Sagitario",
+          "casa": 11
+        },
+        {
+          "simbolo": "…",
+          "planeta": "Plutón",
+          "grado": "25°39'",
+          "signo": "Libra",
+          "casa": 9
+        },
+        {
+          "simbolo": "Z",
+          "planeta": "Ascendente",
+          "grado": "21°17'",
+          "signo": "Acuario",
+          "casa": 1
+        },
+        {
+          "simbolo": "X",
+          "planeta": "Medio Cielo",
+          "grado": "15°57'",
+          "signo": "Escorpio",
+          "casa": 10
+        }
+      ]
+    },
+    "casas_astrologicas": {
+      "sistema": "Placidus",
+      "casas": [
+        {
+          "casa": 1,
+          "signo": "Acuario",
+          "grado": "21°17'"
+        },
+        {
+          "casa": 2,
+          "signo": "Piscis",
+          "grado": "15°0'"
+        },
+        {
+          "casa": 3,
+          "signo": "Aries",
+          "grado": "13°20'"
+        },
+        {
+          "casa": 4,
+          "signo": "Tauro",
+          "grado": "15°57'"
+        },
+        {
+          "casa": 5,
+          "signo": "Géminis",
+          "grado": "20°0'"
+        },
+        {
+          "casa": 6,
+          "signo": "Cáncer",
+          "grado": "22°15'"
+        },
+        {
+          "casa": 7,
+          "signo": "Leo",
+          "grado": "21°17'"
+        },
+        {
+          "casa": 8,
+          "signo": "Virgo",
+          "grado": "15°0'"
+        },
+        {
+          "casa": 9,
+          "signo": "Libra",
+          "grado": "13°20'"
+        },
+        {
+          "casa": 10,
+          "signo": "Escorpio",
+          "grado": "15°57'"
+        },
+        {
+          "casa": 11,
+          "signo": "Sagitario",
+          "grado": "20°0'"
+        },
+        {
+          "casa": 12,
+          "signo": "Capricornio",
+          "grado": "22°15'"
+        }
+      ]
+    },
+    "aspectos": {
+      "conjunciones": [
+        {
+          "planetas": ["Sol (Q)", "Mercurio (E)"],
+          "descripcion": "Concepciones claras, juicio desapasionado, habilidad para lenguas y pensamiento rápido."
+        }
+      ],
+      "oposiciones": [
+        {
+          "planetas": ["Sol (Q)", "Saturno (U)"],
+          "descripcion": "Desarrolla voluntad y seguridad, pero puede generar complejos de inferioridad."
+        },
+        {
+          "planetas": ["Mercurio (E)", "Plutón (…)"],
+          "descripcion": "Ansiedad, actitud ofensiva en defensa de opiniones."
+        }
+      ],
+      "trigonos": [
+        {
+          "planetas": ["Sol (Q)", "Neptuno (O)"],
+          "descripcion": "Imaginación artística, suavidad de carácter y capacidad de sanación."
+        }
+      ],
+      "sextiles": [
+        {
+          "planetas": ["Luna (W)", "Marte (T)"],
+          "descripcion": "Vitalidad, audacia y reacción rápida."
+        }
+      ]
+    },
+    "distribuciones": {
+      "modalidades": {
+        "cardinales": ["Q", "E", "T", "U", "…"],
+        "fijos": ["Y", "Z", "X"],
+        "mutables": ["W", "R", "I", "O"]
+      },
+      "elementos": {
+        "fuego": ["Q", "W", "E", "I", "O"],
+        "tierra": [],
+        "aire": ["T", "U", "…", "Z"],
+        "agua": ["R", "Y", "X"]
+      },
+      "temperamento": {
+        "masculino": ["Q", "W", "E", "T", "U", "I", "O", "…", "Z"],
+        "femenino": ["R", "Y", "X"]
+      }
+    },
+    "interpretaciones": {
+      "ascendente": {
+        "signo": "Acuario",
+        "descripcion": "Independiente, innovador, busca armonía social y tiene fuerte intuición."
+      },
+      "sol": {
+        "signo": "Aries",
+        "casa": 3,
+        "descripcion": "Energía creativa, liderazgo, impulsividad y enfoque en comunicación."
+      },
+      "luna": {
+        "signo": "Sagitario",
+        "casa": 10,
+        "descripcion": "Optimismo, amor por viajes y filosofía, necesidad de libertad emocional."
+      },
+      "otros_planetas": {
+        "marte": "En Libra (casa 8): Diplomático, busca equilibrio en relaciones profundas.",
+        "jupiter": "En Escorpio (casa 9): Pasión por el ocultismo y estrategias financieras."
+      }
+    },
+    "prologo": "La carta astral refleja la conexión entre el cosmos y la Tierra, ofreciendo un análisis psicológico basado en métodos milenarios. Representa un mapa del cielo al momento del nacimiento, integrando simbolismos astrológicos para revelar fortalezas y desafíos.",
+    "epilogo": "La carta astral es una guía que muestra tendencias, pero la voluntad humana puede trascender influencias estelares. 'Los astros inclinan, pero no obligan'. Utiliza esta información para crecer y tomar decisiones conscientes."
+  }
+}

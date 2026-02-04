@@ -1,0 +1,510 @@
+{
+    "cartas": {
+        "0_El_Loco": {
+            "numero": 0,
+            "nombre": "El Loco",
+            "personalidad": "Espontáneo, libre y lleno de energía impredecible.",
+            "positivo": "Nuevos comienzos, aventura, creatividad desbordante.",
+            "negativo": "Imprudencia, caos, falta de dirección.",
+            "elemento": "Aire",
+            "regente": "Urano",
+            "arquetipo": "El Eterno Niño",
+            "efecto": "Permite saltar turnos estratégicos y anula penalizaciones de sinergias opuestas.",
+            "multiplicador": "X2 si se combina con otra carta de Aire.",
+            "puntos": 22,
+            "armonico": [
+                1,
+                3
+            ],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Análisis de patrones de juego y sugerencias estratégicas basadas en IA."
+            }
+        },
+        "1_El_Mago": {
+            "numero": 1,
+            "nombre": "El Mago",
+            "personalidad": "Hábil, creativo y maestro de la manifestación.",
+            "positivo": "Habilidad, iniciativa, dominio creativo.",
+            "negativo": "Manipulación, engaño, uso egoísta del poder.",
+            "elemento": "Aire",
+            "regente": "Mercurio",
+            "arquetipo": "El Alquimista",
+            "efecto": "Duplica el efecto de una carta menor en la misma casa.",
+            "multiplicador": "X2 si se juega con una figura menor de Aire o Fuego.",
+            "puntos": 1,
+            "armonico": [
+                1,
+                5
+            ],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Optimización de jugadas según historial de partidas."
+            }
+        },
+        "2_La_Sacerdotisa": {
+            "numero": 2,
+            "nombre": "La Sacerdotisa",
+            "personalidad": "Sabia, intuitiva y en conexión con el misterio.",
+            "positivo": "Sabiduría interior, intuición, conocimiento secreto.",
+            "negativo": "Aislamiento, pasividad, confusión emocional.",
+            "elemento": "Agua",
+            "regente": "Luna",
+            "arquetipo": "La Guardiana del Misterio",
+            "efecto": "Permite ver la próxima carta del oponente y anular efectos negativos de Agua.",
+            "multiplicador": "X2 si se juega con otra carta de Agua.",
+            "puntos": 2,
+            "armonico": [
+                2,
+                6
+            ],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Predicción de sinergias futuras para jugadas óptimas."
+            }
+        },
+        "3_La_Emperatriz": {
+            "numero": 3,
+            "nombre": "La Emperatriz",
+            "personalidad": "Nutritiva, creativa y fértil.",
+            "positivo": "Abundancia, creatividad, conexión con la naturaleza.",
+            "negativo": "Excesos, superficialidad, dependencia emocional.",
+            "elemento": "Tierra",
+            "regente": "Venus",
+            "arquetipo": "La Madre Creativa",
+            "efecto": "Incrementa en +2 la estabilidad de cualquier carta en juego.",
+            "multiplicador": "X2 si se juega con una carta de Tierra.",
+            "puntos": 3,
+            "armonico": [
+                3,
+                9
+            ],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Recomendaciones de juego basadas en sinergias previas."
+            }
+        },
+        "4_El_Emperador": {
+            "numero": 4,
+            "nombre": "El Emperador",
+            "personalidad": "Estructurado, fuerte y protector.",
+            "positivo": "Estabilidad, liderazgo, poder organizado.",
+            "negativo": "Autoritarismo, rigidez, falta de empatía.",
+            "elemento": "Fuego",
+            "regente": "Aries",
+            "arquetipo": "El Protector",
+            "efecto": "Protege una carta de ser afectada por penalizaciones de sinergias opuestas.",
+            "multiplicador": "X2 si se juega con otra carta de Fuego.",
+            "puntos": 4,
+            "armonico": [
+                4,
+                8
+            ],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Estrategias defensivas y de estabilidad en el tablero."
+            }
+        },
+        "5_El_Hierofante": {
+            "numero": 5,
+            "nombre": "El Hierofante",
+            "personalidad": "Espiritual, tradicional y conectado con la enseñanza.",
+            "positivo": "Conexión espiritual, guía, sabiduría colectiva.",
+            "negativo": "Dogmatismo, conformismo, falta de individualidad.",
+            "elemento": "Tierra",
+            "regente": "Tauro",
+            "arquetipo": "El Maestro Espiritual",
+            "efecto": "Convierte una sinergia opuesta en neutra durante un turno.",
+            "multiplicador": "X2 si se juega con una carta de Tierra.",
+            "puntos": 5,
+            "armonico": [
+                5,
+                10
+            ],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Estrategia de juego basada en patrones históricos."
+            }
+        },
+        "6_Los_Enamorados": {
+            "numero": 6,
+            "nombre": "Los Enamorados",
+            "personalidad": "Apasionado, romántico y lleno de dualidad.",
+            "positivo": "Amor, conexión profunda, decisiones importantes.",
+            "negativo": "Indecisión, conflicto emocional, superficialidad.",
+            "elemento": "Aire",
+            "regente": "Géminis",
+            "arquetipo": "El Amante",
+            "efecto": "Si se juega con otra carta de su mismo elemento, otorga +2 puntos adicionales.",
+            "multiplicador": "X2 si se juega con una carta de Aire.",
+            "puntos": 6,
+            "armonico": [
+                6,
+                12
+            ],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Análisis de compatibilidad entre cartas en el tablero."
+            }
+        },
+        "7_El_Carro": {
+            "numero": 7,
+            "nombre": "El Carro",
+            "personalidad": "Determinado, enfocado y orientado hacia el éxito.",
+            "positivo": "Victoria, determinación, avance rápido.",
+            "negativo": "Falta de control, agresividad, imprudencia.",
+            "elemento": "Agua",
+            "regente": "Cáncer",
+            "arquetipo": "El Guerrero",
+            "efecto": "Permite cambiar la posición de una carta propia en juego.",
+            "multiplicador": "X2 si se juega con otra carta de Agua.",
+            "puntos": 7,
+            "armonico": [
+                7,
+                14
+            ],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Sugerencias de movimientos estratégicos basados en el estado del tablero."
+            }
+        },
+        "8_Ajuste": {
+            "numero": 8,
+            "nombre": "Ajuste",
+            "personalidad": "Preciso, equilibrado y con un fuerte sentido de la justicia kármica.",
+            "positivo": "Equilibrio, verdad, precisión en las decisiones.",
+            "negativo": "Rigidez, juicio severo, falta de flexibilidad.",
+            "elemento": "Aire",
+            "regente": "Libra",
+            "arquetipo": "El Equilibrador Cósmico",
+            "efecto": "Corrige efectos negativos en juego y estabiliza las energías en el tablero.",
+            "multiplicador": "X2 si se juega con otra carta de Aire.",
+            "puntos": 8,
+            "armonico": [
+                8,
+                16
+            ],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Detección de desbalance en el juego y ajustes recomendados."
+            }
+        },
+        "9_El_Ermitaño": {
+            "numero": 9,
+            "nombre": "El Ermitaño",
+            "personalidad": "Sabio, introspectivo y buscador de verdades.",
+            "positivo": "Sabiduría, reflexión, iluminación.",
+            "negativo": "Aislamiento, dudas, falta de dirección.",
+            "elemento": "Tierra",
+            "regente": "Virgo",
+            "arquetipo": "El Buscador Solitario",
+            "efecto": "Permite visualizar las próximas dos jugadas del oponente.",
+            "multiplicador": "X2 si se juega con otra carta de Tierra.",
+            "puntos": 9,
+            "armonico": [
+                9,
+                18
+            ],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Predicciones estratégicas y consejos de juego."
+            }
+        },
+        "10_La_Rueda_de_la_Fortuna": {
+            "numero": 10,
+            "nombre": "La Rueda de la Fortuna",
+            "personalidad": "Cíclica, cambiante y llena de oportunidades.",
+            "positivo": "Cambio favorable, nuevas oportunidades, destino.",
+            "negativo": "Inestabilidad, falta de control, incertidumbre.",
+            "elemento": "Fuego",
+            "regente": "Júpiter",
+            "arquetipo": "El Señor del Destino",
+            "efecto": "Gira la posición de todas las cartas en juego aleatoriamente.",
+            "multiplicador": "X2 si se juega con otra carta de Fuego.",
+            "puntos": 10,
+            "armonico": [
+                10,
+                20
+            ],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Sugerencias para aprovechar cambios en el juego."
+            }
+        },
+        "11_La_Fuerza": {
+            "numero": 11,
+            "nombre": "La Fuerza",
+            "personalidad": "Valiente, determinada y llena de dominio propio.",
+            "positivo": "Coraje, resistencia, control interno.",
+            "negativo": "Impulsividad, represión de emociones, exceso de control.",
+            "elemento": "Fuego",
+            "regente": "Leo",
+            "arquetipo": "El Dominador",
+            "efecto": "Duplica la intensidad de una carta aliada en juego.",
+            "multiplicador": "X2 si se juega con otra carta de Fuego.",
+            "puntos": 11,
+            "armonico": [
+                11,
+                22
+            ],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Sugerencias estratégicas para el control del juego."
+            }
+        },
+        "12_El_Colgado": {
+            "numero": 12,
+            "nombre": "El Colgado",
+            "personalidad": "Reflexivo, dispuesto al sacrificio y al cambio.",
+            "positivo": "Nueva perspectiva, transformación, entrega.",
+            "negativo": "Estancamiento, sacrificio innecesario, incertidumbre.",
+            "elemento": "Agua",
+            "regente": "Neptuno",
+            "arquetipo": "El Mártir",
+            "efecto": "Invierte el efecto de cualquier carta en juego.",
+            "multiplicador": "X2 si se juega con otra carta de Agua.",
+            "puntos": 12,
+            "armonico": [
+                12,
+                24
+            ],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Análisis de sacrificios estratégicos y ventajas ocultas."
+            }
+        },
+        "13_La_Muerte": {
+            "numero": 13,
+            "nombre": "La Muerte",
+            "personalidad": "Transformadora, intensa y regeneradora.",
+            "positivo": "Renacimiento, cambio radical, liberación.",
+            "negativo": "Resistencia al cambio, pérdida, miedo.",
+            "elemento": "Agua",
+            "regente": "Escorpio",
+            "arquetipo": "El Transformador",
+            "efecto": "Elimina una carta en juego y permite reestructurar el paño.",
+            "multiplicador": "X2 si se juega con otra carta de Agua.",
+            "puntos": 13,
+            "armonico": [
+                13,
+                26
+            ],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Recomendaciones sobre cambios estratégicos en el juego."
+            }
+        },
+        "14_La_Templanza": {
+            "numero": 14,
+            "nombre": "La Templanza",
+            "personalidad": "Pacífica, armonizadora y llena de equilibrio.",
+            "positivo": "Integración, alquimia, balance interno.",
+            "negativo": "Indecisión, falta de dirección, compromiso excesivo.",
+            "elemento": "Fuego",
+            "regente": "Sagitario",
+            "arquetipo": "El Alquimista Cósmico",
+            "efecto": "Permite equilibrar las energías en juego y reforzar una sinergia.",
+            "multiplicador": "X2 si se juega con otra carta de Fuego.",
+            "puntos": 14,
+            "armonico": [
+                14,
+                28
+            ],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Optimización de sinergias y balance de energías."
+            }
+        },
+        "15_El_Diablo": {
+            "numero": 15,
+            "nombre": "El Diablo",
+            "personalidad": "Poderoso, tentador y con gran magnetismo.",
+            "positivo": "Deseo, poder, influencia.",
+            "negativo": "Manipulación, obsesión, ataduras.",
+            "elemento": "Tierra",
+            "regente": "Capricornio",
+            "arquetipo": "El Tentador",
+            "efecto": "Obliga al oponente a jugar con una carta menos el próximo turno.",
+            "multiplicador": "X2 si se juega con otra carta de Tierra.",
+            "puntos": 15,
+            "armonico": [
+                15,
+                30
+            ],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Estrategias de control e influencia en el juego."
+            }
+        },
+        "16_La_Torre": {
+            "numero": 16,
+            "nombre": "La Torre",
+            "personalidad": "Impactante, disruptiva y llena de cambios bruscos.",
+            "positivo": "Revelaciones, transformación, caída de estructuras obsoletas.",
+            "negativo": "Crisis, caos, destrucción inesperada.",
+            "elemento": "Fuego",
+            "regente": "Marte",
+            "arquetipo": "El Destructor",
+            "efecto": "Elimina todas las cartas en una casa y reinicia su energía.",
+            "multiplicador": "X2 si se juega con otra carta de Fuego.",
+            "puntos": 16,
+            "armonico": [
+                16,
+                32
+            ],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Identificación de puntos débiles en la estrategia del oponente."
+            }
+        },
+        "17_La_Estrella": {
+            "numero": 17,
+            "nombre": "La Estrella",
+            "personalidad": "Esperanzadora, inspiradora y llena de luz.",
+            "positivo": "Optimismo, guía, claridad espiritual.",
+            "negativo": "Ilusión sin fundamentos, ingenuidad.",
+            "elemento": "Aire",
+            "regente": "Acuario",
+            "arquetipo": "El Visionario",
+            "efecto": "Otorga inmunidad a una carta aliada durante dos turnos.",
+            "multiplicador": "X2 si se juega con otra carta de Aire.",
+            "puntos": 17,
+            "armonico": [
+                17,
+                34
+            ],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Predicciones estratégicas basadas en patrones de juego."
+            }
+        },
+        "18_La_Luna": {
+            "numero": 18,
+            "nombre": "La Luna",
+            "personalidad": "Misteriosa, intuitiva y cambiante.",
+            "positivo": "Intuición, sueños, conexión con lo oculto.",
+            "negativo": "Engaños, confusión, autoengaño.",
+            "elemento": "Agua",
+            "regente": "Piscis",
+            "arquetipo": "La Ilusión",
+            "efecto": "Invierte el efecto de una carta en juego.",
+            "multiplicador": "X2 si se juega con otra carta de Agua.",
+            "puntos": 18,
+            "armonico": [
+                18,
+                36
+            ],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Análisis de posibles engaños o estrategias ocultas en el juego."
+            }
+        },
+        "19_El_Sol": {
+            "numero": 19,
+            "nombre": "El Sol",
+            "personalidad": "Radiante, vital y lleno de energía positiva.",
+            "positivo": "Éxito, claridad, vitalidad.",
+            "negativo": "Exceso de optimismo, ego inflado.",
+            "elemento": "Fuego",
+            "regente": "Sol",
+            "arquetipo": "La Iluminación",
+            "efecto": "Aumenta en +3 la estabilidad de todas las cartas aliadas.",
+            "multiplicador": "X2 si se juega con otra carta de Fuego.",
+            "puntos": 19,
+            "armonico": [
+                19,
+                38
+            ],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Sugerencias estratégicas para maximizar el éxito en el juego."
+            }
+        },
+        "20_El_Juicio": {
+            "numero": 20,
+            "nombre": "El Juicio",
+            "personalidad": "Transformador, decisivo y con visión de futuro.",
+            "positivo": "Renovación, revelaciones, nuevas oportunidades.",
+            "negativo": "Juicio severo, falta de flexibilidad.",
+            "elemento": "Aire",
+            "regente": "Plutón",
+            "arquetipo": "El Renacimiento",
+            "efecto": "Permite recuperar una carta eliminada del juego.",
+            "multiplicador": "X2 si se juega con otra carta de Aire.",
+            "puntos": 20,
+            "armonico": [
+                20,
+                40
+            ],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Análisis de segundas oportunidades estratégicas en el juego."
+            }
+        },
+        "21_El_Mundo": {
+            "numero": 21,
+            "nombre": "El Mundo",
+            "personalidad": "Completo, logrado y en armonía total.",
+            "positivo": "Finalización exitosa, plenitud, integración.",
+            "negativo": "Resistencia a nuevos comienzos, apego al éxito pasado.",
+            "elemento": "Tierra",
+            "regente": "Saturno",
+            "arquetipo": "La Realización",
+            "efecto": "Si se juega, todas las cartas aliadas reciben +2 puntos adicionales.",
+            "multiplicador": "X2 si se juega con otra carta de Tierra.",
+            "puntos": 21,
+            "armonico": [
+                21,
+                42
+            ],
+            "impacto_nft": {
+                "historial_sinergias": "Registro de sinergias exitosas para evolución del NFT.",
+                "bonificación_progresiva": "+1 punto base si acumula más de 10 sinergias exitosas.",
+                "registro_blockchain": "Estadísticas de victorias, sinergias y efectos activados en la blockchain.",
+                "ia_asistente": "Estrategia avanzada para lograr la máxima puntuación posible."
+            }
+        }
+    }
+}

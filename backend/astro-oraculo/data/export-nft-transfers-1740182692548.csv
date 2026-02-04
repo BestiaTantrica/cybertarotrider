@@ -1,0 +1,2 @@
+﻿Transaction Hash,Status,Method,BlockNo,DateTime (UTC),From,From_Nametag,To,To_Nametag,Type,Item,Quantity
+"0x53b0a534b9cf2ebcf9a617ec107d717d0a94793febd7bb06d434fe0049729ed3","Success","0x654e76c0","7758101","2025-02-21 23:55:48","0x0000000000000000000000000000000000000000","","0xcEd07974490ce6E23664124Aa8bACCf704FeE77b","","ERC-721","NFT: MagoNFT","1"

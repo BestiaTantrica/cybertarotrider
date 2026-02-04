@@ -1,0 +1,30 @@
+{
+  "juego": "CyberTarot",
+  "descripcion": "Juego estratégico basado en elementos astrológicos, numerología y tránsitos planetarios. Integración con blockchain y NFTs dinámicos.",
+
+  "elementos": {
+    "Fuego": { "valor": 8, "descripcion": "Impulso creativo y acción directa" },
+    "Tierra": { "valor": 6, "descripcion": "Estabilidad y recursos materiales" },
+    "Aire": { "valor": 7, "descripcion": "Estrategia y comunicación" },
+    "Agua": { "valor": 5, "descripcion": "Intuición y conexión emocional" },
+    "Éter": { "valor": 10, "descripcion": "Sinergia de los cuatro elementos, potencia efectos." }
+  },
+
+  "sinergias": {
+    "fuego_agua_aire_tierra": { "nombre": "Éter Supremo", "efecto": "+10% a todos los atributos" },
+    "fuego_fuego_fuego_fuego": { "nombre": "Infierno Supremo", "efecto": "+20% Ataque" },
+    "agua_agua_agua_agua": { "nombre": "Marea Devastadora", "efecto": "+15% Defensa" },
+    "aire_aire_aire_aire": { "nombre": "Tormenta Perfecta", "efecto": "+15% Agilidad" },
+    "tierra_tierra_tierra_tierra": { "nombre": "Titanes de Piedra", "efecto": "+10% Resistencia" },
+    "fuego_agua_aire_tierra_eter": { "nombre": "Fénix Ascendente", "efecto": "+15% Vida y Combos activados" }
+  },
+
+  "dinamica_de_juego": {
+    "turnos": "Modo Confrontativo: Cada turno activa casas según tránsitos diario anterior y posterior.",
+    "victoria": {
+      "balance": "Gana quien controle más casas o tenga más puntos",
+      "puntuacion": "Se suman valores de cartas en cada casa.",
+      "arcanos_mayores": "Pueden cambiar el resultado de una partida."
+    }
+  }
+}

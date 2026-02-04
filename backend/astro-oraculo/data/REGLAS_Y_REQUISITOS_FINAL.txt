@@ -1,0 +1,124 @@
+### **Reglamento Oficial de AstroTarot**
+
+#### **1. Introducción al Juego**
+
+AstroTarot es un juego estratégico basado en la interacción de los elementos astrológicos (Fuego, Tierra, Aire y Agua), la numerología del Tarot y los tránsitos planetarios y sus aspectos. Los jugadores deben utilizar sus cartas de manera inteligente para equilibrar las energías en el paño, aprovechar sinergias y superar los desafíos astrológicos. El éxito en estas acciones se determina por la cantidad de puntos obtenidos mediante sinergias elementales, multiplicadores armónicos y efectos activados por los tránsitos planetarios, asegurando que la estrategia y la planificación jueguen un papel clave en el resultado del juego.
+
+---
+
+#### **2. Estructura del Juego**
+
+##### **2.1. Elementos**
+
+Cada carta pertenece a uno de los cuatro elementos y afecta el desarrollo del juego:
+
+- 🔥 **Fuego**: Impulso, acción y pasión.
+- 🌎 **Tierra**: Materialización, estabilidad y protección.
+- 💨 **Aire**: Estrategia, movimiento e intelecto.
+- 🌊 **Agua**: Emoción, intuición y fluidez.
+
+##### **2.2. Casas Astrológicas**
+
+- Representan el campo de acción de las cartas.
+- Cada casa se activa según el mes en curso.
+- Los tránsitos planetarios pueden modificar los efectos de las cartas en juego.
+
+##### **2.3. Cartas y Puntuación**
+
+Cada carta tiene:
+
+- **Un número** que define su valor base en puntos y se utiliza como referencia principal en la puntuación. Estos valores interactúan con las reglas de puntuación sumándose en cada casa y aplicando bonificaciones o penalizaciones según sinergias elementales, armónicos activos y tránsitos astrológicos.
+- **Un armónico** que potencia o modifica su efecto en determinadas condiciones.
+- **Un efecto especial** que puede influir en el juego.
+
+---
+
+#### **3. Dinámica del Juego**
+
+##### **3.1. Modos de Juego**
+
+1️⃣ **Modo Solitario (MS):** El jugador coloca sus cartas para equilibrar las energías del paño y enfrentarse a desafíos astrológicos.\
+2️⃣ **Modo Confrontativo (MC):** Dos jugadores compiten por el control de las casas astrológicas. 3️⃣ **Modo Confrontativo a Ciegas (MCC):** Se juega sin conocer las cartas del oponente.
+
+##### **3.2. Turnos**
+
+- Cada turno activa las casas según el tránsito planetario.
+- Se colocan cartas en juego y se resuelven efectos.
+- Se calculan los puntos y sinergias activas.
+
+##### **3.3. Condiciones de Victoria**
+
+- **Victoria por Balance:** Si un jugador equilibra todas sus casas activas.
+- **Victoria por Puntuación:** Quien sume más puntos al final de la partida.
+- **Victoria por Arcanos Mayores:** Si un efecto especial de Arcano Mayor se activa.
+
+---
+
+#### **4. Reglas de Puntuación, Armónicos y Multiplicadores**
+
+##### **4.1. Cálculo de Puntos**
+
+- **Se suman los valores de todas las cartas en una misma casa.**
+- **Si hay energías de reversión, se restan puntos según su impacto.**
+- **Ciertos valores activan mejoras o efectos adicionales en la casa.**
+- **La interacción total de puntos determina el ganador de la casa.**
+
+##### **4.2. Armónicos y su Influencia en el Juego**
+
+- Los armónicos de las cartas pueden amplificar o debilitar efectos según la resonancia con los tránsitos astrológicos.
+
+- Si una carta tiene un armónico dominante que coincide con la casa en la que se juega, obtiene un **bono adicional de +2 puntos**.
+
+- Si varias cartas comparten un mismo armónico en una casa, la energía de la casa se refuerza, incrementando en un **10% el total de puntos**.
+
+- Los armónicos superiores (6, 8, 12) tienen efectos únicos en NFTs dinámicos, potenciando habilidades especiales o mejorando sus estadísticas en la blockchain.
+
+- **Si 3+ cartas tienen el mismo armónico en una casa:** Multiplicador **x1.2**.
+
+- **Si una carta coincide con el tránsito planetario:** Bono de **+3 puntos**.
+
+- **Límite de bonificaciones por tránsito:** Máximo **+6 puntos** por casa.
+
+- **Si hay cartas de elementos opuestos:** Penalización **-20% de la puntuación total**.
+
+- **Si hay cartas con reversión:** Penalización progresiva **(-10% por carta afectada)**.
+
+---
+
+#### **5. NFTs Dinámicos y Evolutivos**
+
+##### **5.1. Integración con Blockchain**
+
+- Cada carta será un NFT con historial de partidas y evolución en la blockchain.
+- Se registrarán las sinergias activadas y los efectos de cada partida.
+- Los jugadores podrán intercambiar o mejorar sus cartas NFT.
+
+##### **5.2. Mejora y Evolución de NFTs**
+
+- Los NFTs dinámicos registrarán cada sinergia activada en las partidas y reflejarán su progresión en la blockchain.
+
+- Si un NFT acumula más de 10 sinergias exitosas, podrá obtener una bonificación permanente de **+1 punto base** en su estructura de juego.
+
+- Se implementará un sistema de registro de estadísticas en la blockchain, permitiendo que cada NFT guarde su historial de victorias, sinergias y efectos especiales activados.
+
+- **Si una carta se usa con éxito en sinergia 5 veces:** Gana **+1 punto permanente**.
+
+- **Si una carta pierde 3 veces en casas opuestas:** Desbloquea una habilidad defensiva, como resistencia a penalizaciones, inmunidad temporal a efectos negativos o la capacidad de modificar su posición en la siguiente ronda.
+
+- **Las cartas podrán adaptarse según el historial de juego.**
+
+---
+
+#### **6. Ajustes y Balance del Juego**
+
+##### **6.1. Cambios Incorporados**
+
+- Se redujo el multiplicador de armónicos en casas con 3+ cartas activas.
+- Se estableció un límite máximo de bonificaciones por tránsito.
+- Se ajustó la penalización por reversión para que sea progresiva.
+- Se optimizó la mecánica NFT para reflejar la evolución de cartas en la blockchain.
+
+---
+
+🚀 **Este reglamento está diseñado para asegurar una experiencia de juego balanceada, estratégica y evolutiva a través de NFTs dinámicos.**
+

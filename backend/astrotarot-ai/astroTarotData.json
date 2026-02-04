@@ -1,0 +1,501 @@
+{
+    "carta_astral": {
+        "flujo_energetico": {
+            "descripcion": "Representación visual y dinámica de la carta astral, adaptándose a tránsitos y sinastrías.",
+            "colores": {
+                "base": [ "azul", "dorado", "plateado" ],
+                "transiciones": "Colores dinámicos según aspectos planetarios y cromoterapia."
+            },
+            "texturas": [ "nebulosa cósmica", "fractales astrológicos" ],
+            "interaccion_dinamica": true
+        },
+        "casas_astrologicas": {
+            "cantidad": 12,
+            "descripcion": "Cada casa representa un área de la vida y se adapta visualmente según la energía dominante.",
+            "planetas_en_casas": {
+                "Sol": "Casa en la que se encuentra el Sol, reflejando la identidad del jugador.",
+                "Luna": "Casa de la Luna, indicando su mundo emocional e inconsciente.",
+                "Mercurio": "Casa donde está Mercurio, mostrando comunicación y pensamiento.",
+                "Venus": "Casa de Venus, reflejando amor y relación con la belleza.",
+                "Marte": "Casa donde está Marte, mostrando acción y conflicto.",
+                "Júpiter": "Casa donde se encuentra Júpiter, indicando expansión y crecimiento.",
+                "Saturno": "Casa de Saturno, relacionada con disciplina y restricciones.",
+                "Urano": "Casa de Urano, que representa cambios y revoluciones.",
+                "Neptuno": "Casa de Neptuno, reflejando ilusiones y espiritualidad.",
+                "Plutón": "Casa de Plutón, relacionada con transformaciones profundas."
+            }
+        },
+        "aspectos": {
+            "conjuncion": {
+                "color": "naranja",
+                "efecto": "Fusión de energías, intensidad."
+            },
+            "cuadratura": {
+                "color": "rojo",
+                "efecto": "Tensión, desafíos, acción."
+            },
+            "trigono": {
+                "color": "azul",
+                "efecto": "Armonía, fluidez, talento."
+            },
+            "oposicion": {
+                "color": "rojo",
+                "efecto": "Polaridad, balance, conciencia de opuestos."
+            },
+            "sextil": {
+                "color": "verde claro",
+                "efecto": "Oportunidades, cooperación."
+            },
+            "quincuncio": {
+                "color": "violeta",
+                "efecto": "Ajuste, incomodidad, transformación."
+            },
+            "semisextil": {
+                "color": "amarillo claro",
+                "efecto": "Pequeños ajustes, adaptación."
+            }
+        },
+        "puntos_sensibles": {
+            "Medio_Cielo": "Refleja la vocación y el reconocimiento público.",
+            "Fondo_Cielo": "Raíces familiares y vida privada.",
+            "Nodos_Lunares": "Destino y lecciones kármicas.",
+            "Quirón": "Herida espiritual y sanación.",
+            "Lilith": "Sombra oculta y energía reprimida."
+        },
+        "asteroides": {
+            "Ceres": "Nutrición y cuidado.",
+            "Pallas": "Estrategia e inteligencia.",
+            "Juno": "Compromiso y sociedad.",
+            "Vesta": "Devoción y sacrificio."
+        }
+    },
+    "datos_ambientales": {
+        "clima": "Condiciones meteorológicas en el momento de generación.",
+        "fase_lunar": "Fase exacta de la Luna al momento de la generación."
+    },
+    "descripcion": "Integración completa de tarot, astrología, y cromoterapia en un entorno interactivo de NFTs dinámicos.",
+    "proyecto": "AstroTarot Integral",
+    "tarot": {
+        "arcanos_mayores": {
+            "0": {
+                "nombre": "El Loco",
+                "descripcion": "Inicios, aventura, potencial ilimitado, espontaneidad.",
+                "efectos": "Corrientes erráticas de energía multicolor."
+            },
+            "1": {
+                "nombre": "El Mago",
+                "descripcion": "Habilidad, poder personal, manifestación, destreza.",
+                "efectos": "Chispas de energía enfocada."
+            },
+            "2": {
+                "nombre": "La Sacerdotisa",
+                "descripcion": "Intuición, misterio, conocimiento oculto.",
+                "efectos": "Ondas de energía lunar plateada."
+            },
+            "3": {
+                "nombre": "La Emperatriz",
+                "descripcion": "Creatividad, fertilidad, amor maternal, naturaleza.",
+                "efectos": "Energía verde vibrante y patrones florales."
+            },
+            "4": {
+                "nombre": "El Emperador",
+                "descripcion": "Orden, estructura, estabilidad, autoridad.",
+                "efectos": "Líneas doradas geométricas y luz firme."
+            },
+            "5": {
+                "nombre": "El Hierofante",
+                "descripcion": "Tradición, conocimiento espiritual, enseñanza.",
+                "efectos": "Pilares de luz blanca y símbolos sagrados."
+            },
+            "6": {
+                "nombre": "Los Amantes",
+                "descripcion": "Unión, amor, decisiones, conexiones.",
+                "efectos": "Ondas de energía rosa dorada en fusión."
+            },
+            "7": {
+                "nombre": "El Carro",
+                "descripcion": "Victoria, control, avance, determinación.",
+                "efectos": "Ráfagas de energía azul en movimiento."
+            },
+            "8": {
+                "nombre": "La Fuerza",
+                "descripcion": "Coraje, dominio interno, compasión.",
+                "efectos": "Vórtices de energía cálida y pulsante."
+            },
+            "9": {
+                "nombre": "El Ermitaño",
+                "descripcion": "Sabiduría, introspección, guía interior.",
+                "efectos": "Brillo tenue y sendero iluminado en penumbra."
+            },
+            "10": {
+                "nombre": "La Rueda de la Fortuna",
+                "descripcion": "Cambio, destino, ciclos inevitables.",
+                "efectos": "Espirales de energía en constante giro."
+            },
+            "11": {
+                "nombre": "La Justicia",
+                "descripcion": "Verdad, equilibrio, consecuencia de actos.",
+                "efectos": "Escalas flotantes de luz dorada."
+            },
+            "12": {
+                "nombre": "El Colgado",
+                "descripcion": "Sacrificio, perspectiva nueva, espera.",
+                "efectos": "Energía suspendida en reflejos invertidos."
+            },
+            "13": {
+                "nombre": "La Muerte",
+                "descripcion": "Transformación, finales y nuevos comienzos.",
+                "efectos": "Neblinas negras que se disuelven en luz."
+            },
+            "14": {
+                "nombre": "La Templanza",
+                "descripcion": "Balance, armonía, integración.",
+                "efectos": "Flujos suaves de colores en equilibrio."
+            },
+            "15": {
+                "nombre": "El Diablo",
+                "descripcion": "Ataduras, materialismo, tentación.",
+                "efectos": "Corrientes rojas intensas y destellos oscuros."
+            },
+            "16": {
+                "nombre": "La Torre",
+                "descripcion": "Ruptura, cambio drástico, revelación.",
+                "efectos": "Destellos de energía caótica en fracturas."
+            },
+            "17": {
+                "nombre": "La Estrella",
+                "descripcion": "Esperanza, inspiración, serenidad.",
+                "efectos": "Brillos estelares en tonalidades suaves."
+            },
+            "18": {
+                "nombre": "La Luna",
+                "descripcion": "Ilusión, intuición, misterio.",
+                "efectos": "Luz tenue azulada en fluctuación."
+            },
+            "19": {
+                "nombre": "El Sol",
+                "descripcion": "Éxito, alegría, vitalidad.",
+                "efectos": "Ondas doradas expansivas y cálidas."
+            },
+            "20": {
+                "nombre": "El Juicio",
+                "descripcion": "Renacimiento, despertar, claridad.",
+                "efectos": "Ráfagas de luz ascendente."
+            },
+            "21": {
+                "nombre": "El Mundo",
+                "descripcion": "Finalización, totalidad, logro.",
+                "efectos": "Aura luminosa envolvente en armonía."
+            }
+        },
+        "arcanos_menores": {
+            "estructura": "4 palos (oros, copas, espadas, bastos) x 14 cartas (As, 2-10, Paje, Caballero, Reina, Rey).",
+            "palos": {
+                "bastos": {
+                    "descripcion": "Representan la energía, la acción y la creatividad.",
+                    "cartas": {
+                        "as": {
+                            "descripcion": "Inicio de un nuevo impulso, inspiración, energía creativa desbordante.",
+                            "efectos": "Llamas de energía naranja vibrante."
+                        },
+                        "2": {
+                            "descripcion": "Planificación, equilibrio de fuerzas, toma de decisiones.",
+                            "efectos": "Corrientes de fuego entrecruzadas."
+                        },
+                        "3": {
+                            "descripcion": "Progreso, visión a futuro, exploración de posibilidades.",
+                            "efectos": "Ondas de luz expansiva."
+                        },
+                        "4": {
+                            "descripcion": "Estabilidad, celebración, éxito inicial.",
+                            "efectos": "Llamas firmes y radiantes."
+                        },
+                        "5": {
+                            "descripcion": "Conflicto, competencia, desafíos en el camino.",
+                            "efectos": "Chispas de fuego caótico."
+                        },
+                        "6": {
+                            "descripcion": "Victoria, reconocimiento, liderazgo.",
+                            "efectos": "Luz dorada ascendiendo."
+                        },
+                        "7": {
+                            "descripcion": "Resistencia, valentía, superación de obstáculos.",
+                            "efectos": "Torbellino de llamas protectoras."
+                        },
+                        "8": {
+                            "descripcion": "Movimiento rápido, cambios inesperados, acción inmediata.",
+                            "efectos": "Destellos de fuego veloz."
+                        },
+                        "9": {
+                            "descripcion": "Precaución, defensa, última batalla antes del éxito.",
+                            "efectos": "Escudo de fuego envolvente."
+                        },
+                        "10": {
+                            "descripcion": "Carga excesiva, responsabilidad, agotamiento.",
+                            "efectos": "Pesadas llamas opacas."
+                        },
+                        "paje": {
+                            "descripcion": "Exploración de nuevas ideas, entusiasmo.",
+                            "efectos": "Chispas juguetonas de fuego."
+                        },
+                        "caballero": {
+                            "descripcion": "Acción impulsiva, avance decidido.",
+                            "efectos": "Corriente ardiente en movimiento."
+                        },
+                        "reina": {
+                            "descripcion": "Magnetismo, creatividad, liderazgo inspirador.",
+                            "efectos": "Corona de fuego radiante."
+                        },
+                        "rey": {
+                            "descripcion": "Visión estratégica, control de la acción.",
+                            "efectos": "Llamas ordenadas y dominantes."
+                        }
+                    }
+                },
+                "copas": {
+                    "descripcion": "Simbolizan las emociones, el amor y la intuición.",
+                    "cartas": {
+                        "as": {
+                            "descripcion": "Nuevo amor, plenitud emocional, apertura al sentimiento.",
+                            "efectos": "Olas de energía rosa."
+                        },
+                        "2": {
+                            "descripcion": "Unión, conexión emocional, relación armoniosa.",
+                            "efectos": "Ondas de agua fusionándose."
+                        },
+                        "3": {
+                            "descripcion": "Celebración, amistad, felicidad compartida.",
+                            "efectos": "Brillos suaves y festivos."
+                        },
+                        "4": {
+                            "descripcion": "Reflexión, apatía, necesidad de introspección.",
+                            "efectos": "Ondulaciones suaves y pausadas."
+                        },
+                        "5": {
+                            "descripcion": "Pérdida, tristeza, desapego emocional.",
+                            "efectos": "Gotas de agua cayendo lentamente."
+                        },
+                        "6": {
+                            "descripcion": "Recuerdos, nostalgia, conexión con el pasado.",
+                            "efectos": "Ondas acuáticas reverberando."
+                        },
+                        "7": {
+                            "descripcion": "Opciones, ilusiones, confusión emocional.",
+                            "efectos": "Niebla acuosa y espejismos."
+                        },
+                        "8": {
+                            "descripcion": "Abandono de algo emocionalmente significativo.",
+                            "efectos": "Corriente de agua alejándose."
+                        },
+                        "9": {
+                            "descripcion": "Satisfacción emocional, deseos cumplidos.",
+                            "efectos": "Brillos dorados reflejados en agua."
+                        },
+                        "10": {
+                            "descripcion": "Felicidad completa, armonía familiar.",
+                            "efectos": "Cascada de luz acuosa."
+                        },
+                        "paje": {
+                            "descripcion": "Sensibilidad, intuición, inicio de una exploración emocional.",
+                            "efectos": "Ondas suaves y juguetonas."
+                        },
+                        "caballero": {
+                            "descripcion": "Romance, idealismo, propuestas emocionales.",
+                            "efectos": "Corriente de agua en movimiento."
+                        },
+                        "reina": {
+                            "descripcion": "Empatía, amor incondicional, intuición profunda.",
+                            "efectos": "Copa radiante rodeada de agua."
+                        },
+                        "rey": {
+                            "descripcion": "Control emocional, sabiduría sentimental.",
+                            "efectos": "Aguas tranquilas y seguras."
+                        }
+                    }
+                },
+                "espadas": {
+                    "descripcion": "Simbolizan el intelecto, los conflictos y la verdad.",
+                    "cartas": {
+                        "as": {
+                            "descripcion": "Claridad mental, verdad revelada, decisión firme.",
+                            "efectos": "Ráfagas de energía azul afilada."
+                        },
+                        "2": {
+                            "descripcion": "Duda, indecisión, conflicto interno.",
+                            "efectos": "Luz azul dividida en dos direcciones."
+                        },
+                        "3": {
+                            "descripcion": "Dolor emocional, traición, ruptura.",
+                            "efectos": "Corriente oscura de energía cortante."
+                        },
+                        "4": {
+                            "descripcion": "Reposo, reflexión, pausa necesaria.",
+                            "efectos": "Brillos de calma suspendida."
+                        },
+                        "5": {
+                            "descripcion": "Conflicto, derrota, egoísmo.",
+                            "efectos": "Energía azul con ondas de discordia."
+                        },
+                        "6": {
+                            "descripcion": "Transición, cambio, viaje mental.",
+                            "efectos": "Corriente azul en movimiento progresivo."
+                        },
+                        "7": {
+                            "descripcion": "Estrategia, engaño, manipulación.",
+                            "efectos": "Sombras fugaces y ocultas."
+                        },
+                        "8": {
+                            "descripcion": "Restricción mental, sensación de encierro.",
+                            "efectos": "Hilos de energía envolventes y tensos."
+                        },
+                        "9": {
+                            "descripcion": "Ansiedad, miedos, pesadillas.",
+                            "efectos": "Oscuras corrientes de energía perturbadora."
+                        },
+                        "10": {
+                            "descripcion": "Crisis, final doloroso, transformación inevitable.",
+                            "efectos": "Oscuras corrientes cortantes."
+                        },
+                        "paje": {
+                            "descripcion": "Búsqueda de la verdad, observación.",
+                            "efectos": "Destellos de análisis y lógica."
+                        },
+                        "caballero": {
+                            "descripcion": "Impulso mental, determinación agresiva.",
+                            "efectos": "Corriente azul afilada en rápido movimiento."
+                        },
+                        "reina": {
+                            "descripcion": "Claridad, inteligencia, percepción aguda.",
+                            "efectos": "Aura azul con ondas analíticas."
+                        },
+                        "rey": {
+                            "descripcion": "Autoridad mental, juicio frío y lógico.",
+                            "efectos": "Corrientes azul oscuro con destellos de juicio."
+                        }
+                    }
+                },
+                "oros": {
+                    "descripcion": "Representan la estabilidad, la materialidad y la prosperidad.",
+                    "cartas": {
+                        "as": {
+                            "descripcion": "Nuevas oportunidades financieras, abundancia material.",
+                            "efectos": "Brillo dorado intenso."
+                        },
+                        "2": {
+                            "descripcion": "Equilibrio financiero, toma de decisiones.",
+                            "efectos": "Ondas doradas fluctuantes."
+                        },
+                        "3": {
+                            "descripcion": "Trabajo en equipo, planificación.",
+                            "efectos": "Patrones geométricos dorados."
+                        },
+                        "4": {
+                            "descripcion": "Seguridad material, apego al dinero.",
+                            "efectos": "Energía dorada acumulada y estática."
+                        },
+                        "5": {
+                            "descripcion": "Pérdida material, escasez.",
+                            "efectos": "Oscuridad con destellos dorados débiles."
+                        },
+                        "6": {
+                            "descripcion": "Generosidad, equilibrio en los recursos.",
+                            "efectos": "Flujo de energía dorada armoniosa."
+                        },
+                        "7": {
+                            "descripcion": "Paciencia, evaluación del esfuerzo.",
+                            "efectos": "Brillos dorados tenues en crecimiento."
+                        },
+                        "8": {
+                            "descripcion": "Trabajo duro, dedicación.",
+                            "efectos": "Patrones repetitivos de luz dorada."
+                        },
+                        "9": {
+                            "descripcion": "Éxito material, independencia.",
+                            "efectos": "Energía dorada radiante y estable."
+                        },
+                        "10": {
+                            "descripcion": "Riqueza, legado familiar, estabilidad a largo plazo.",
+                            "efectos": "Aura dorada expansiva."
+                        },
+                        "paje": {
+                            "descripcion": "Aprendizaje material, nuevas oportunidades.",
+                            "efectos": "Pequeños destellos dorados de crecimiento."
+                        },
+                        "caballero": {
+                            "descripcion": "Trabajo constante, estabilidad.",
+                            "efectos": "Corriente dorada firme y estructurada."
+                        },
+                        "reina": {
+                            "descripcion": "Abundancia, generosidad, estabilidad emocional y material.",
+                            "efectos": "Aura dorada envolvente."
+                        },
+                        "rey": {
+                            "descripcion": "Autoridad financiera, éxito material absoluto.",
+                            "efectos": "Resplandor dorado con patrones estructurados."
+                        }
+                    }
+                }
+            }
+        },
+        "cromoterapia": {
+            "colores_terapeuticos": {
+                "rojo": {
+                    "descripcion": "Energía, fuerza, activación, vitalidad, coraje.",
+                    "efectos_visuales": "Llamas vibrantes, pulsaciones intensas, destellos energéticos."
+                },
+                "naranja": {
+                    "descripcion": "Creatividad, entusiasmo, optimismo, sociabilidad, expansión.",
+                    "efectos_visuales": "Remolinos de energía cálida, ondas radiantes, chispas doradas."
+                },
+                "amarillo": {
+                    "descripcion": "Intelecto, claridad mental, confianza, lógica, optimismo.",
+                    "efectos_visuales": "Rayos de luz brillante, destellos dorados, vibración luminosa."
+                },
+                "verde": {
+                    "descripcion": "Equilibrio, paz, sanación, esperanza, crecimiento.",
+                    "efectos_visuales": "Flujo armonioso, ondas de energía vegetal, partículas curativas."
+                },
+                "azul": {
+                    "descripcion": "Serenidad, relajación, calma, comunicación, introspección.",
+                    "efectos_visuales": "Ondas acuáticas suaves, brillos tenues, fluidez envolvente."
+                },
+                "índigo": {
+                    "descripcion": "Intuición profunda, percepción extrasensorial, sabiduría, meditación.",
+                    "efectos_visuales": "Neblinas místicas, destellos psíquicos, corrientes etéreas."
+                },
+                "violeta": {
+                    "descripcion": "Espiritualidad, transformación, inspiración, imaginación, conexión divina.",
+                    "efectos_visuales": "Remolinos cósmicos, aura etérea, luces estelares."
+                },
+                "rosa": {
+                    "descripcion": "Amor incondicional, compasión, ternura, perdón, sanación emocional.",
+                    "efectos_visuales": "Ondas suaves rosadas, destellos armoniosos, vibración de amor."
+                },
+                "blanco": {
+                    "descripcion": "Pureza, limpieza, renovación, protección, iluminación.",
+                    "efectos_visuales": "Brillos radiantes, neblina luminosa, expansión de luz pura."
+                },
+                "negro": {
+                    "descripcion": "Protección, absorción de energía negativa, introspección, transformación.",
+                    "efectos_visuales": "Vórtices oscuros, sombras dinámicas, destellos de vacío."
+                },
+                "marrón": {
+                    "descripcion": "Estabilidad, conexión con la tierra, seguridad, realismo, estructura.",
+                    "efectos_visuales": "Texturas terrenales, vibraciones cálidas, enraizamiento energético."
+                },
+                "gris": {
+                    "descripcion": "Neutralidad, equilibrio, sabiduría, flexibilidad, serenidad.",
+                    "efectos_visuales": "Neblina difusa, tonos suaves, armonía cromática."
+                },
+                "dorado": {
+                    "descripcion": "Éxito, abundancia, prosperidad, conocimiento sagrado, iluminación superior.",
+                    "efectos_visuales": "Rayos dorados, partículas brillantes, resplandor celestial."
+                },
+                "plateado": {
+                    "descripcion": "Misterio, intuición, energía lunar, sensibilidad psíquica, clarividencia.",
+                    "efectos_visuales": "Reflejos plateados, neblina lunar, resplandor frío y sutil."
+                }
+            }
+        }
+    }
+}
