@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CYBER TAROT | Ritual Obsidian</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;500;700&family=JetBrains+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Top Bar -->
+    <div id="header">
+        <div class="score-box player-score">JUGADOR: <span id="p-score">0</span></div>
+        <div class="center-status">
+            <h1>CYBER TAROT</h1>
+            <div id="status-text">ESPERANDO BATALLA...</div>
+            <div id="time-bar-container">
+                <div id="time-fill"></div>
+            </div>
+            <div id="day-counter">DÍA ASTRAL: 1 / 90</div>
+        </div>
+        <div class="score-box enemy-score">SISTEMA: <span id="e-score">0</span></div>
+    </div>
+
+    <!-- Layout Grid -->
+
+    <!-- Left Panel: Info -->
+    <div id="panel-left">
+        <div class="panel-section" id="inspector-panel">
+            <div class="section-title">OJO MÍSTICO</div>
+            <div id="inspector-content">
+                Pasa el mouse sobre el tablero para revelar sus secretos...
+            </div>
+        </div>
+
+        <div class="panel-section" style="flex-grow:1; display:flex; flex-direction:column;">
+            <div class="section-title">LOG DE SISTEMA</div>
+            <div id="game-log">
+                <!-- JS fills this -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Center Panel: Game -->
+    <div id="main-stage">
+        <div id="mandala">
+            <!-- JS fills this with sectors -->
+        </div>
+    </div>
+
+    <!-- Right Panel: Hand -->
+    <div id="panel-right">
+        <div class="section-title">TU MANO</div>
+        <div id="hand-container" style="display:flex; flex-direction:column; gap:10px; width:100%;">
+            <!-- JS fills cards -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
