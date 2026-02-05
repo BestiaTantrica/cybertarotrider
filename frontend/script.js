@@ -81,7 +81,23 @@ async function loadPassport() {
 
         if (data.status === 'success') {
             const layers = data.layers;
+            const config = data.config; // Trae colores y velocidades del servidor
             const apiBase = "http://158.101.117.130:5000";
+
+            // Inyectar ADN Visual en el entorno (CSS Variables)
+            if (config && config.glow_color) {
+                document.body.style.setProperty('--energy-color-primary', config.glow_color);
+
+                // Convertir HEX a RGB para efectos con opacidad en CSS
+                const hex = config.glow_color.replace('#', '');
+                const r = parseInt(hex.substring(0, 2), 16);
+                const g = parseInt(hex.substring(2, 4), 16);
+                const b = parseInt(hex.substring(4, 6), 16);
+                document.body.style.setProperty('--energy-color-primary-rgb', `${r}, ${g}, ${b}`);
+
+                const intensity = config.pulse_speed === 'FAST' ? '25px' : '15px';
+                document.body.style.setProperty('--energy-glow-intensity', intensity);
+            }
 
             // Función para resolver la URL (Supabase es absoluta, local es relativa)
             const resolveUrl = (url) => url.startsWith('http') ? url : `${apiBase}${url}`;
@@ -90,7 +106,7 @@ async function loadPassport() {
             document.getElementById('l-mid').style.backgroundImage = `url('${resolveUrl(layers.mid)}')`;
             document.getElementById('l-front').style.backgroundImage = `url('${resolveUrl(layers.front)}')`;
 
-            log("Conexión Estelar: Pasaporte Cósmico Sincronizado.", "SYS");
+            log("Sincronía Astral: El entorno ha mutado según tu Pasaporte.", "SYS");
         }
     } catch (e) {
         console.warn("⚠️ Fábrica de Arte Offline. Usando modo de ahorro energético.");
@@ -105,8 +121,8 @@ async function init() {
     state.currentAspects = calculateAspects();
     state.currentRules = generateRulesFromAspects();
 
-    // Cargar Pasaporte Cósmico (Arte Vivo) desde el Backend
-    await loadPassport();
+    // Cargar Pasaporte Cósmico (Arte Vivo) en segundo plano (No bloquea el inicio)
+    loadPassport();
 
     // Crear Mazos Únicos
     state.playerDeck = generateCustomDeck();
@@ -455,7 +471,18 @@ function renderBoard() {
 
 function renderMandala() {
     const m = document.getElementById('mandala');
-    m.innerHTML = '<div id="orbits-layer"></div>';
+
+    // Limpiar órbita y casas pero PRESERVAR el pasaporte
+    const orbits = document.getElementById('orbits-layer') || document.createElement('div');
+    if (!document.getElementById('orbits-layer')) {
+        orbits.id = 'orbits-layer';
+        m.appendChild(orbits);
+    }
+    orbits.innerHTML = '';
+
+    // Borrar solo las casas viejas para no duplicar
+    document.querySelectorAll('.house-interactive').forEach(el => el.remove());
+
     for (let i = 0; i < 12; i++) {
         let label = document.createElement('div');
         label.className = 'house-interactive'; label.dataset.idx = i;
@@ -586,13 +613,21 @@ function createParticles(hIdx, color, count = 10) {
     const m = document.getElementById('mandala');
     const angle = (hIdx * 30) + 15; const rad = (angle - 90) * (Math.PI / 180);
     const x = 50 + 35 * Math.cos(rad); const y = 50 + 35 * Math.sin(rad);
+
+    // ADN Visual: Obtener el color del Pasaporte
+    const passportColor = getComputedStyle(document.body).getPropertyValue('--energy-color-primary').trim();
+
     for (let i = 0; i < count; i++) {
-        let p = document.createElement('div'); p.className = 'particle'; p.style.background = color;
+        let p = document.createElement('div'); p.className = 'particle';
+
+        // Entrelazado: Mitad de partículas son del elemento, mitad del Pasaporte
+        p.style.background = (i % 2 === 0) ? color : passportColor;
+
         p.style.left = x + '%'; p.style.top = y + '%'; m.appendChild(p);
         const tx = (Math.random() - 0.5) * 200; const ty = (Math.random() - 0.5) * 200;
         p.animate([
-            { transform: 'scale(1.5)', opacity: 1 },
-            { transform: `translate(${tx}px,${ty}px) scale(0)`, opacity: 0 }
+            { transform: 'scale(1.5)', opacity: 1, filter: `blur(0px) drop-shadow(0 0 5px ${p.style.background})` },
+            { transform: `translate(${tx}px,${ty}px) scale(0)`, opacity: 0, filter: 'blur(4px)' }
         ], { duration: 800 + Math.random() * 400, easing: 'cubic-bezier(0, .9, .57, 1)' }).onfinish = () => p.remove();
     }
 }
