@@ -1,4 +1,5 @@
 from flask import Flask, request, jsonify, send_from_directory
+from flask_cors import CORS
 import json
 import os
 from art_factory import ArtFactory
@@ -11,6 +12,7 @@ with open("carta natal tomy.json", "r", encoding="utf-8") as f:
     carta_natal_tomy = json.load(f)
 
 app = Flask(__name__, static_folder="static")
+CORS(app) # Permitir peticiones desde el frontend
 
 # Inicializar Fábrica de Arte
 art_factory = ArtFactory()

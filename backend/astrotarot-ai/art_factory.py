@@ -111,21 +111,21 @@ class ArtFactory:
         for provider in self.providers:
             provider_name = provider.__class__.__name__
             try:
-                print(f"🔄 Intentando con {provider_name}...")
+                print(f"[INFO] Intentando con {provider_name}...")
                 image_data = provider.generate(prompt, seed, width, height)
                 
                 # Guardar archivo
                 with open(output_path, 'wb') as f:
                     f.write(image_data)
                 
-                print(f"✅ Éxito: {output_path} generado por {provider_name}")
+                print(f"[OK] Exito: {output_path} generado por {provider_name}")
                 return True
                 
             except Exception as e:
-                print(f"⚠️ Fallo {provider_name}: {e}")
+                print(f"[WARN] Fallo {provider_name}: {e}")
                 continue # Pasa al siguiente proveedor
                 
-        print("❌ CRITICAL: Todos los proveedores fallaron.")
+        print("[ERROR] CRITICAL: Todos los proveedores fallaron.")
         return False
 
 # --- PROMPTS MAESTROS ---

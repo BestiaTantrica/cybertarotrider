@@ -67,11 +67,44 @@ let state = {
     selectedHouseIdx: null
 };
 
+/* ================= PASAPORTE VIVO (FÁBRICA DE ARTE) ================= */
+async function loadPassport() {
+    console.log("🌌 Conectando con El Telar de las Almas...");
+    try {
+        const response = await fetch('http://localhost:5000/generar-pasaporte', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ user_id: "tomy_alpha" })
+        });
+
+        const data = await response.json();
+
+        if (data.status === 'success') {
+            const layers = data.layers;
+            // Aplicar imágenes a las capas del centro del Mándala
+            // Las URLs vienen como /static/assets/... que Flask sabe servir
+            const apiBase = "http://localhost:5000";
+            document.getElementById('l-back').style.backgroundImage = `url('${apiBase}${layers.back}')`;
+            document.getElementById('l-mid').style.backgroundImage = `url('${apiBase}${layers.mid}')`;
+            document.getElementById('l-front').style.backgroundImage = `url('${apiBase}${layers.front}')`;
+
+            log("Conexión Estelar: Pasaporte Cósmico Sincronizado.", "SYS");
+        }
+    } catch (e) {
+        console.warn("⚠️ Fábrica de Arte Offline. Usando modo de ahorro energético.");
+        log("Tensión en el Éter: Los activos visuales no pudieron cargarse.", "SYS");
+    }
+}
+
+
 /* ================= INIT ================= */
-function init() {
+async function init() {
     calculateEphemeris();
     state.currentAspects = calculateAspects();
     state.currentRules = generateRulesFromAspects();
+
+    // Cargar Pasaporte Cósmico (Arte Vivo) desde el Backend
+    await loadPassport();
 
     // Crear Mazos Únicos
     state.playerDeck = generateCustomDeck();
