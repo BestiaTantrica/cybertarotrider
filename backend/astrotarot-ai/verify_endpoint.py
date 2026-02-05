@@ -2,8 +2,9 @@ import requests
 import time
 
 def test_generation():
-    url = "http://localhost:5000/generar-pasaporte"
-    print(f"[TEST] Enviando peticion a {url}...")
+    # URL del Servidor de Producción en Oracle Ashburn
+    url = "http://158.101.117.130:5000/generar-pasaporte"
+    print(f"[PROD TEST] Enviando peticion a {url}...")
     
     try:
         start_time = time.time()

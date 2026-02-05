@@ -71,7 +71,7 @@ let state = {
 async function loadPassport() {
     console.log("🌌 Conectando con El Telar de las Almas...");
     try {
-        const response = await fetch('http://localhost:5000/generar-pasaporte', {
+        const response = await fetch('http://158.101.117.130:5000/generar-pasaporte', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ user_id: "tomy_alpha" })
