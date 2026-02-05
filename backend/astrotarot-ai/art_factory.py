@@ -112,8 +112,14 @@ class ArtFactory:
         url = os.getenv("SUPABASE_URL")
         key = os.getenv("SUPABASE_KEY")
         if url and key:
-            self.supabase: Client = create_client(url, key)
-            self.bucket = "assets-juego" # Asegúrate de que este bucket exista en Supabase
+            try:
+                self.supabase: Client = create_client(url, key)
+                self.bucket = "assets-juego" 
+                print(f"[INFO] Supabase conectado a {url}")
+            except Exception as e:
+                self.supabase = None
+                print(f"[ERROR] Error inicializando Supabase: {e}")
+                print("[WARN] Se usara almacenamiento local (TEMPORAL).")
         else:
             self.supabase = None
             print("[WARN] Supabase no configurado. Se usara almacenamiento local (TEMPORAL).")
