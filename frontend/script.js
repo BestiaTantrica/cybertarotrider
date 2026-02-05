@@ -83,7 +83,7 @@ async function loadPassport() {
             const layers = data.layers;
             // Aplicar imágenes a las capas del centro del Mándala
             // Las URLs vienen como /static/assets/... que Flask sabe servir
-            const apiBase = "http://localhost:5000";
+            const apiBase = "http://158.101.117.130:5000";
             document.getElementById('l-back').style.backgroundImage = `url('${apiBase}${layers.back}')`;
             document.getElementById('l-mid').style.backgroundImage = `url('${apiBase}${layers.mid}')`;
             document.getElementById('l-front').style.backgroundImage = `url('${apiBase}${layers.front}')`;
