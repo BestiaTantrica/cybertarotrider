@@ -2,7 +2,10 @@ from flask import Flask, request, jsonify, send_from_directory
 from flask_cors import CORS
 import json
 import os
+from dotenv import load_dotenv
 from art_factory import ArtFactory
+
+load_dotenv() # Cargar variables de entorno del .env
 
 # Cargar los archivos JSON
 with open("astroTarotData.json", "r", encoding="utf-8") as f:

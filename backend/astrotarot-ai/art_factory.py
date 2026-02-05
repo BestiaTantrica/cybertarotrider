@@ -2,7 +2,10 @@ import time
 import requests
 import os
 import random
+from dotenv import load_dotenv
 from supabase import create_client, Client
+
+load_dotenv()
 
 # ==================================================================================
 # ART FACTORY: MOTOR MULTI-PROVEEDOR ROBUSTO CON SUPABASE
