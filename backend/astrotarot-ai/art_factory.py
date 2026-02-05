@@ -2,14 +2,17 @@ import time
 import requests
 import os
 import random
+from supabase import create_client, Client
 
 # ==================================================================================
-# ART FACTORY: MOTOR MULTI-PROVEEDOR ROBUSTO
+# ART FACTORY: MOTOR MULTI-PROVEEDOR ROBUSTO CON SUPABASE
 # ==================================================================================
 # Estrategia de Redundancia:
 # 1. Pollinations AI (Flux) -> Calidad Máxima, Gratis.
 # 2. Hugging Face API (Flux.1-dev) -> Requiere Token, Alta Estabilidad.
-# 3. Fallback Local (SVG) -> Último recurso para no romper el juego.
+# 3. Fallback Local (SVG) -> Último recurso.
+# 
+# PERSISTENCIA: Los activos se suben a Supabase Storage para evitar llenar el disco.
 # ==================================================================================
 
 class ArtProvider:
@@ -94,19 +97,28 @@ class LocalFallbackProvider(ArtProvider):
 
 class ArtFactory:
     """
-    Gestor principal que orquesta los proveedores.
+    Gestor principal que orquesta los proveedores y la persistencia en Supabase.
     """
     
     def __init__(self):
         self.providers = [
             PollinationsProvider(),
-            # HuggingFaceProvider(), # Descomentar cuando tengamos token
             LocalFallbackProvider()
         ]
+        # Inicializar Supabase (usamos .env o vars de entorno)
+        url = os.getenv("SUPABASE_URL")
+        key = os.getenv("SUPABASE_KEY")
+        if url and key:
+            self.supabase: Client = create_client(url, key)
+            self.bucket = "assets-juego" # Asegúrate de que este bucket exista en Supabase
+        else:
+            self.supabase = None
+            print("[WARN] Supabase no configurado. Se usara almacenamiento local (TEMPORAL).")
         
-    def generate_asset(self, prompt, seed, output_path, width=1024, height=1024):
+    def generate_asset(self, prompt, seed, filename, width=1024, height=1024):
         """
-        Intenta generar el activo iterando proveedores. Guardar en disco si éxito.
+        Intenta generar el activo e intenta subirlo a Supabase.
+        Devuelve la URL (Supabase o Local).
         """
         for provider in self.providers:
             provider_name = provider.__class__.__name__
@@ -114,19 +126,38 @@ class ArtFactory:
                 print(f"[INFO] Intentando con {provider_name}...")
                 image_data = provider.generate(prompt, seed, width, height)
                 
-                # Guardar archivo
-                with open(output_path, 'wb') as f:
+                # 1. Intentar subir a Supabase Storage
+                if self.supabase:
+                    try:
+                        storage_path = f"pasaportes/{filename}"
+                        # El content-type es importante para que el navegador lo vea como imagen
+                        self.supabase.storage.from_(self.bucket).upload(
+                            path=storage_path,
+                            file=image_data,
+                            file_options={"content-type": "image/png", "upsert": "true"}
+                        )
+                        public_url = self.supabase.storage.from_(self.bucket).get_public_url(storage_path)
+                        print(f"[OK] Subido a Supabase: {public_url}")
+                        return public_url
+                    except Exception as upload_err:
+                        print(f"[WARN] Fallo subida a Supabase: {upload_err}")
+                        # Si falla Supabase, caemos a local por seguridad para no perder la imagen
+                
+                # 2. Fallback Local (si no hay Supabase o falló la subida)
+                local_path = os.path.join("static/assets", filename)
+                os.makedirs(os.path.dirname(local_path), exist_ok=True)
+                with open(local_path, 'wb') as f:
                     f.write(image_data)
                 
-                print(f"[OK] Exito: {output_path} generado por {provider_name}")
-                return True
+                print(f"[OK] Guardado localmente: {local_path}")
+                return f"/static/assets/{filename}"
                 
             except Exception as e:
                 print(f"[WARN] Fallo {provider_name}: {e}")
-                continue # Pasa al siguiente proveedor
+                continue 
                 
         print("[ERROR] CRITICAL: Todos los proveedores fallaron.")
-        return False
+        return None
 
 # --- PROMPTS MAESTROS ---
 def get_prompts_for_user(natal_data):

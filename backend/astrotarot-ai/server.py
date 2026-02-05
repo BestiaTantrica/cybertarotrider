@@ -42,16 +42,15 @@ def generar_pasaporte():
     # 2. Generar capas con la Fábrica
     for layer, prompt in prompts.items():
         filename = f"{layer}_{seed}.png"
-        filepath = os.path.join(ASSETS_DIR, filename)
         
-        # Check si ya existe para no regenerar (cache simple)
-        if not os.path.exists(filepath):
-            success = art_factory.generate_asset(prompt, seed, filepath)
-            if not success:
-                return jsonify({"error": f"Fallo generando capa {layer}"}), 500
+        # Intentar generar/obtener URL (ahora maneja Supabase internamente)
+        asset_url = art_factory.generate_asset(prompt, seed, filename)
         
-        # Construir URL local
-        results[layer] = f"/static/assets/{filename}"
+        if not asset_url:
+            return jsonify({"error": f"Fallo generando capa {layer}"}), 500
+        
+        # El resultado ahora es una URL completa (Supabase) o relativa (Local)
+        results[layer] = asset_url
 
     return jsonify({
         "status": "success",

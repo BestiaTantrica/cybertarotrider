@@ -81,12 +81,14 @@ async function loadPassport() {
 
         if (data.status === 'success') {
             const layers = data.layers;
-            // Aplicar imágenes a las capas del centro del Mándala
-            // Las URLs vienen como /static/assets/... que Flask sabe servir
             const apiBase = "http://158.101.117.130:5000";
-            document.getElementById('l-back').style.backgroundImage = `url('${apiBase}${layers.back}')`;
-            document.getElementById('l-mid').style.backgroundImage = `url('${apiBase}${layers.mid}')`;
-            document.getElementById('l-front').style.backgroundImage = `url('${apiBase}${layers.front}')`;
+
+            // Función para resolver la URL (Supabase es absoluta, local es relativa)
+            const resolveUrl = (url) => url.startsWith('http') ? url : `${apiBase}${url}`;
+
+            document.getElementById('l-back').style.backgroundImage = `url('${resolveUrl(layers.back)}')`;
+            document.getElementById('l-mid').style.backgroundImage = `url('${resolveUrl(layers.mid)}')`;
+            document.getElementById('l-front').style.backgroundImage = `url('${resolveUrl(layers.front)}')`;
 
             log("Conexión Estelar: Pasaporte Cósmico Sincronizado.", "SYS");
         }
